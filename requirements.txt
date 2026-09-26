@@ -1,0 +1,17 @@
+# Versions are those the reported results were produced with. Earlier versions
+# of numpy, scipy and scikit-learn will very likely work; the pins are recorded
+# for exact reproduction rather than as minimum requirements.
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+pandas==3.0.2
+matplotlib==3.10.8
+scikit-image==0.26.0
+
+# Needed only for the CNN inspection model (train_cnn.py, replicate_cnn.py).
+# The gradient-boosting model runs without it, and so does every calibration
+# experiment if cached probabilities are used.
+torch==2.14.0
+
+# Needed only for the image_segments auxiliary dataset.
+river==0.26.1

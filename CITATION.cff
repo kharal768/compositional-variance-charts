@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the paper below.
+title: "wmmon: components-of-variance control charts for compositional classifier output"
+abstract: >-
+  Reference implementation of a components-of-variance control chart for the
+  predicted-class composition of a deployed classifier, together with the
+  experiment scripts reproducing every result in the accompanying paper.
+type: software
+authors:
+  - family-names: Imran
+    given-names: Muhammad
+    email: kharal@tju.edu.cn
+    affiliation: "College of Economics and Management, Tianjin University"
+    orcid: "https://orcid.org/0000-0003-0592-4635"
+  - family-names: He
+    given-names: Zhen
+    email: 258090@tju.edu.cn
+    affiliation: "College of Economics and Management, Tianjin University"
+  - family-names: Zaidi
+    given-names: Fatima Sehar
+    email: fatimasehar@gzhu.edu.cn
+    affiliation: "Guangzhou University"
+license: MIT
+version: 0.1.0
+keywords:
+  - statistical process control
+  - compositional data
+  - components of variance
+  - overdispersion
+  - concept drift
+preferred-citation:
+  type: article
+  title: "Components-of-variance charts for compositional classifier output under batch structure"
+  authors:
+    - family-names: Imran
+      given-names: Muhammad
+    - family-names: He
+      given-names: Zhen
+    - family-names: Zaidi
+      given-names: Fatima Sehar
+  year: 2026
+  # journal, volume, pages and DOI to be completed on acceptance
