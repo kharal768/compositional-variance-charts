@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wmmon"
-version = "0.1.0"
+version = "0.2.0"
 description = "Monitoring the composition of classifier output: charts and the experiments behind a study of why multinomial limits fail"
 readme = "README.md"
 requires-python = ">=3.10"
