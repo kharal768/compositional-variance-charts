@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/*.txt
+cache/
+data/
+*.pkl
+*.npz
+*.pt
+build/
+dist/
+*.egg-info/
