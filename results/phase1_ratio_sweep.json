@@ -1,0 +1,219 @@
+{
+  "nominal_per_1000": 5.0,
+  "threshold_ratio": 40,
+  "verdict": "0/2 held-out cells at ratio >= 40",
+  "exploration": [
+    {
+      "dataset": "digits",
+      "unit": 3,
+      "dim": 9,
+      "ratio": 5,
+      "phase_one": 45,
+      "exposure": 354,
+      "alarms": 31,
+      "rate": 87.57062146892656,
+      "ci": [
+        60.2755937510059,
+        121.99607722917791
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "digits",
+      "unit": 3,
+      "dim": 9,
+      "ratio": 10,
+      "phase_one": 90,
+      "exposure": 309,
+      "alarms": 9,
+      "rate": 29.12621359223301,
+      "ci": [
+        13.40307710122898,
+        54.568746976283094
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "digits",
+      "unit": 3,
+      "dim": 9,
+      "ratio": 20,
+      "phase_one": 180,
+      "exposure": 219,
+      "alarms": 9,
+      "rate": 41.0958904109589,
+      "ci": [
+        18.96115117106602,
+        76.57682518983287
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "ratio": 10,
+      "phase_one": 60,
+      "exposure": 324,
+      "alarms": 17,
+      "rate": 52.46913580246913,
+      "ci": [
+        30.85869100883207,
+        82.68087150444919
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "ratio": 20,
+      "phase_one": 120,
+      "exposure": 264,
+      "alarms": 6,
+      "rate": 22.727272727272727,
+      "ci": [
+        8.385128824061704,
+        48.80878234601617
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "ratio": 40,
+      "phase_one": 240,
+      "exposure": 144,
+      "alarms": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        25.29188148751663
+      ],
+      "covers": true
+    }
+  ],
+  "confirmation": [
+    {
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "ratio": 5,
+      "phase_one": 40,
+      "exposure": 751,
+      "alarms": 190,
+      "rate": 252.99600532623168,
+      "ci": [
+        222.25913284480032,
+        285.68642192443735
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "ratio": 10,
+      "phase_one": 80,
+      "exposure": 711,
+      "alarms": 40,
+      "rate": 56.258790436005626,
+      "ci": [
+        40.492627808934955,
+        75.82366427706079
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "ratio": 20,
+      "phase_one": 160,
+      "exposure": 631,
+      "alarms": 34,
+      "rate": 53.88272583201268,
+      "ci": [
+        37.60035597008661,
+        74.48481489085908
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "ratio": 40,
+      "phase_one": 320,
+      "exposure": 471,
+      "alarms": 30,
+      "rate": 63.69426751592356,
+      "ci": [
+        43.383256892506225,
+        89.68159351880593
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "ratio": 80,
+      "phase_one": 640,
+      "exposure": 151,
+      "alarms": 9,
+      "rate": 59.602649006622514,
+      "ci": [
+        27.61341627825541,
+        110.12750558415878
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 48,
+      "dim": 8,
+      "ratio": 5,
+      "phase_one": 40,
+      "exposure": 345,
+      "alarms": 79,
+      "rate": 228.9855072463768,
+      "ci": [
+        185.69166429690569,
+        277.0000195302336
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 48,
+      "dim": 8,
+      "ratio": 10,
+      "phase_one": 80,
+      "exposure": 305,
+      "alarms": 55,
+      "rate": 180.327868852459,
+      "ci": [
+        138.8326997780138,
+        228.15849772771682
+      ],
+      "covers": false
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 48,
+      "dim": 8,
+      "ratio": 20,
+      "phase_one": 160,
+      "exposure": 225,
+      "alarms": 40,
+      "rate": 177.77777777777777,
+      "ci": [
+        130.14869057743817,
+        234.11558563470356
+      ],
+      "covers": false
+    }
+  ]
+}

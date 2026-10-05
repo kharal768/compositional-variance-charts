@@ -1,0 +1,98 @@
+[
+  {
+    "min_size": 1,
+    "units": 1200,
+    "centring": "single Phase I mean",
+    "rate": 12.857142857142858,
+    "ci": [
+      5.895502731295595,
+      24.26604162838344
+    ],
+    "covers": false,
+    "rho": 0.5320486884204477
+  },
+  {
+    "min_size": 1,
+    "units": 1200,
+    "centring": "per-unit correction",
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      5.255966608486495
+    ],
+    "covers": true,
+    "rho": -0.24221238148935775
+  },
+  {
+    "min_size": 5,
+    "units": 996,
+    "centring": "single Phase I mean",
+    "rate": 13.84083044982699,
+    "ci": [
+      5.993922891522224,
+      27.089046005583345
+    ],
+    "covers": false,
+    "rho": 0.2948313994628246
+  },
+  {
+    "min_size": 5,
+    "units": 996,
+    "centring": "per-unit correction",
+    "rate": 1.7301038062283738,
+    "ci": [
+      0.04380147664628785,
+      9.60148621661682
+    ],
+    "covers": true,
+    "rho": 0.011688798536832485
+  },
+  {
+    "min_size": 10,
+    "units": 860,
+    "centring": "single Phase I mean",
+    "rate": 10.080645161290322,
+    "ci": [
+      3.2810324180256085,
+      23.367075204015254
+    ],
+    "covers": true,
+    "rho": 0.12074148441429067
+  },
+  {
+    "min_size": 10,
+    "units": 860,
+    "centring": "per-unit correction",
+    "rate": 2.0161290322580645,
+    "ci": [
+      0.05104266498910749,
+      11.181520386117972
+    ],
+    "covers": true,
+    "rho": 0.019492726712401445
+  },
+  {
+    "min_size": 15,
+    "units": 643,
+    "centring": "single Phase I mean",
+    "rate": 13.66120218579235,
+    "ci": [
+      4.450238429064885,
+      31.59113103001347
+    ],
+    "covers": true,
+    "rho": -0.023231424609964777
+  },
+  {
+    "min_size": 15,
+    "units": 643,
+    "centring": "per-unit correction",
+    "rate": 13.66120218579235,
+    "ci": [
+      4.450238429064885,
+      31.59113103001347
+    ],
+    "covers": true,
+    "rho": -0.04008818339747924
+  }
+]

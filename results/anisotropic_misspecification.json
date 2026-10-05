@@ -1,0 +1,105 @@
+{
+  "nominal_per_1000": 5.0,
+  "unit": 24,
+  "rows": [
+    {
+      "kind": "leading",
+      "strength": 1.5,
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.19308925888792086
+    },
+    {
+      "kind": "leading",
+      "strength": 2.0,
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.17045223907546506
+    },
+    {
+      "kind": "leading",
+      "strength": 4.0,
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.09289023041847802
+    },
+    {
+      "kind": "trailing",
+      "strength": 1.5,
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.21460505644712807
+    },
+    {
+      "kind": "trailing",
+      "strength": 2.0,
+      "rate": 4.282655246252677,
+      "ci": [
+        0.5190708714459153,
+        15.384124898500767
+      ],
+      "covers": true,
+      "between_fraction": 0.2159886721725714
+    },
+    {
+      "kind": "trailing",
+      "strength": 4.0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        7.867983570338293
+      ],
+      "covers": true,
+      "between_fraction": 0.20564913472946306
+    },
+    {
+      "kind": "random",
+      "strength": 1.5,
+      "rate": 4.282655246252677,
+      "ci": [
+        0.5190708714459153,
+        15.384124898500767
+      ],
+      "covers": true,
+      "between_fraction": 0.18720275785870852
+    },
+    {
+      "kind": "random",
+      "strength": 2.0,
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.19896683523111683
+    },
+    {
+      "kind": "random",
+      "strength": 4.0,
+      "rate": 4.282655246252677,
+      "ci": [
+        0.5190708714459153,
+        15.384124898500767
+      ],
+      "covers": true,
+      "between_fraction": 0.08400440847497645
+    }
+  ]
+}

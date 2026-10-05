@@ -1,0 +1,226 @@
+{
+  "change_points": [
+    700,
+    800,
+    900,
+    1000
+  ],
+  "axis1": {
+    "resolution_loss": {
+      "ilr + lot-size scaling": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 7.5,
+          "min": 1.0,
+          "max": 31.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 6.0,
+          "min": 1.0,
+          "max": 31.0
+        }
+      },
+      "ilr only": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 6.5,
+          "min": 2.0,
+          "max": 13.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 5.0,
+          "min": 1.0,
+          "max": 11.0
+        }
+      },
+      "proportions + lot-size scaling": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 8.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 2.0,
+          "min": 0.0,
+          "max": 5.0
+        }
+      },
+      "proportions only": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 3.0,
+          "min": 1.0,
+          "max": 9.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 4.0
+        }
+      }
+    },
+    "defect_remix": {
+      "ilr + lot-size scaling": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 11,
+          "median": 93.0,
+          "min": 1.0,
+          "max": 243.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 72.0,
+          "min": 1.0,
+          "max": 243.0
+        }
+      },
+      "ilr only": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 76.5,
+          "min": 1.0,
+          "max": 260.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 12,
+          "median": 72.5,
+          "min": 1.0,
+          "max": 243.0
+        }
+      },
+      "proportions + lot-size scaling": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 10,
+          "median": 168.0,
+          "min": 9.0,
+          "max": 443.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 11,
+          "median": 93.0,
+          "min": 1.0,
+          "max": 243.0
+        }
+      },
+      "proportions only": {
+        "1.0": {
+          "n_runs": 12,
+          "n_detected": 3,
+          "median": 43.0,
+          "min": 10.0,
+          "max": 93.0
+        },
+        "5.0": {
+          "n_runs": 12,
+          "n_detected": 11,
+          "median": 59.0,
+          "min": 9.0,
+          "max": 193.0
+        }
+      }
+    },
+    "new_signature": {
+      "ilr + lot-size scaling": {
+        "1.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 2.5,
+          "min": 1.0,
+          "max": 4.0
+        },
+        "5.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 2.5,
+          "min": 1.0,
+          "max": 4.0
+        }
+      },
+      "ilr only": {
+        "1.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 1.5,
+          "min": 1.0,
+          "max": 2.0
+        },
+        "5.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 2.0
+        }
+      },
+      "proportions + lot-size scaling": {
+        "1.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 4.0
+        },
+        "5.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 4.0
+        }
+      },
+      "proportions only": {
+        "1.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "5.0": {
+          "n_runs": 4,
+          "n_detected": 4,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    }
+  },
+  "axis2": {
+    "bootstrap + prewhiten auto": {
+      "limit": 95.70970332690125,
+      "realised_fa_per_1000": 2.272727272727273
+    },
+    "bootstrap, prewhiten forced on": {
+      "limit": 36.82700310513963,
+      "realised_fa_per_1000": 32.95454545454545
+    },
+    "bootstrap, prewhiten off": {
+      "limit": 95.70970332690125,
+      "realised_fa_per_1000": 2.272727272727273
+    },
+    "asymptotic chi-square limit": {
+      "limit": 21.95495499065953,
+      "realised_fa_per_1000": 184.0909090909091
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "nominal_per_1000": 5.0,
+  "theta": 2.0,
+  "permuted": true,
+  "mode": "hard",
+  "items_shuffled": true,
+  "rows": [
+    {
+      "lots_per_unit": 1,
+      "n_units": 2860,
+      "median_wafers_per_unit": 22,
+      "chi2_per_1000": 60.7311320754717,
+      "md3_theta2_per_1000": 73.11320754716981,
+      "bootstrap_per_1000": 5.306603773584905,
+      "md3_sigma": 0.05760297966693466,
+      "chi2_limit": 21.95495499065953,
+      "bootstrap_limit": 33.80916241180979
+    },
+    {
+      "lots_per_unit": 2,
+      "n_units": 1430,
+      "median_wafers_per_unit": 33,
+      "chi2_per_1000": 23.86634844868735,
+      "md3_theta2_per_1000": 10.739856801909308,
+      "bootstrap_per_1000": 13.126491646778042,
+      "md3_sigma": 0.046492798700752486,
+      "chi2_limit": 21.95495499065953,
+      "bootstrap_limit": 26.31382277359274
+    },
+    {
+      "lots_per_unit": 4,
+      "n_units": 715,
+      "median_wafers_per_unit": 65,
+      "chi2_per_1000": 2.444987775061125,
+      "md3_theta2_per_1000": 0.0,
+      "bootstrap_per_1000": 22.00488997555012,
+      "md3_sigma": 0.032734916854538935,
+      "chi2_limit": 21.95495499065953,
+      "bootstrap_limit": 19.005969284634492
+    }
+  ]
+}

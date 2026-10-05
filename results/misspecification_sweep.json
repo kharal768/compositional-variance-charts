@@ -1,0 +1,116 @@
+{
+  "nominal_per_1000": 5.0,
+  "unit": 24,
+  "rows": [
+    {
+      "scale": 0.25,
+      "estimator": "em",
+      "rate": 57.815845824411134,
+      "ci": [
+        38.44300828760393,
+        83.00704618801096
+      ],
+      "covers": false,
+      "between_fraction": 0.6107832432821257
+    },
+    {
+      "scale": 0.5,
+      "estimator": "em",
+      "rate": 17.130620985010708,
+      "ci": [
+        7.424064078203232,
+        33.4740478690975
+      ],
+      "covers": false,
+      "between_fraction": 0.39864342206563114
+    },
+    {
+      "scale": 1.0,
+      "estimator": "em",
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.20644069731960146
+    },
+    {
+      "scale": 2.0,
+      "estimator": "em",
+      "rate": 2.1413276231263385,
+      "ci": [
+        0.05421225205652043,
+        11.872480235239859
+      ],
+      "covers": true,
+      "between_fraction": 0.0816581403246542
+    },
+    {
+      "scale": 4.0,
+      "estimator": "em",
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        7.867983570338293
+      ],
+      "covers": true,
+      "between_fraction": 0.028800102268775614
+    },
+    {
+      "scale": 0.25,
+      "estimator": "moment",
+      "rate": 68.52248394004283,
+      "ci": [
+        47.338110774108515,
+        95.35901413401731
+      ],
+      "covers": false,
+      "between_fraction": 0.5884695287103148
+    },
+    {
+      "scale": 0.5,
+      "estimator": "moment",
+      "rate": 17.130620985010708,
+      "ci": [
+        7.424064078203232,
+        33.4740478690975
+      ],
+      "covers": false,
+      "between_fraction": 0.371261082184188
+    },
+    {
+      "scale": 1.0,
+      "estimator": "moment",
+      "rate": 6.423982869379015,
+      "ci": [
+        1.3267440303162628,
+        18.657992372746158
+      ],
+      "covers": true,
+      "between_fraction": 0.1832345252659144
+    },
+    {
+      "scale": 2.0,
+      "estimator": "moment",
+      "rate": 2.1413276231263385,
+      "ci": [
+        0.05421225205652043,
+        11.872480235239859
+      ],
+      "covers": true,
+      "between_fraction": 0.06564547019532606
+    },
+    {
+      "scale": 4.0,
+      "estimator": "moment",
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        7.867983570338293
+      ],
+      "covers": true,
+      "between_fraction": 0.02001347948245378
+    }
+  ]
+}

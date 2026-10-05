@@ -1,0 +1,174 @@
+{
+  "n_lots": 2860,
+  "alarm_positions": [
+    839,
+    841,
+    1248,
+    1249,
+    1250,
+    1251,
+    1252,
+    1316,
+    1317,
+    1318,
+    1319,
+    1320,
+    1321,
+    1322,
+    1323,
+    1324,
+    1325,
+    1714,
+    1715,
+    2050,
+    2196,
+    2338,
+    2345,
+    2666,
+    2667
+  ],
+  "burst_positions": [
+    1248,
+    1249,
+    1250,
+    1251,
+    1252,
+    1316,
+    1317,
+    1318,
+    1319,
+    1320,
+    1321,
+    1322,
+    1323,
+    1324,
+    1325
+  ],
+  "balance_contributions": {
+    "ilr7": {
+      "value": 71.01416805849524,
+      "share": 0.2969906722964749,
+      "reads_as": "g(Center, Donut, Edge-Loc, Edge-Ring, Loc, Near-full, Random, Scratch) vs none"
+    },
+    "ilr0": {
+      "value": 66.67430483398677,
+      "share": 0.27884078852032707,
+      "reads_as": "g(Center) vs Donut"
+    },
+    "ilr1": {
+      "value": 46.57719783301571,
+      "share": 0.19479202075167373,
+      "reads_as": "g(Center, Donut) vs Edge-Loc"
+    },
+    "ilr2": {
+      "value": 37.08340090787806,
+      "share": 0.15508770246521117,
+      "reads_as": "g(Center, Donut, Edge-Loc) vs Edge-Ring"
+    },
+    "ilr6": {
+      "value": 23.63240411821956,
+      "share": 0.09883384934215804,
+      "reads_as": "g(Center, Donut, Edge-Loc, Edge-Ring, Loc, Near-full, Random) vs Scratch"
+    },
+    "ilr4": {
+      "value": -11.873924331270475,
+      "share": -0.04965832687129016,
+      "reads_as": "g(Center, Donut, Edge-Loc, Edge-Ring, Loc) vs Near-full"
+    },
+    "ilr5": {
+      "value": 5.538000634004024,
+      "share": 0.02316065337998991,
+      "reads_as": "g(Center, Donut, Edge-Loc, Edge-Ring, Loc, Near-full) vs Random"
+    },
+    "ilr3": {
+      "value": 0.46690056709349953,
+      "share": 0.0019526401154553224,
+      "reads_as": "g(Center, Donut, Edge-Loc, Edge-Ring) vs Loc"
+    }
+  },
+  "class_shifts": {
+    "Center": {
+      "phase1": 0.033594088747883145,
+      "burst": 0.010348387696840393,
+      "fold_change": 0.30804192292587407
+    },
+    "Donut": {
+      "phase1": 0.005626057253008079,
+      "burst": 0.016184783731787184,
+      "fold_change": 2.8767541821821454
+    },
+    "Edge-Loc": {
+      "phase1": 0.039211256155664787,
+      "burst": 0.03246787970996651,
+      "fold_change": 0.8280244728980948
+    },
+    "Edge-Ring": {
+      "phase1": 0.12077748486734854,
+      "burst": 0.02124077364503222,
+      "fold_change": 0.17586699763090144
+    },
+    "Loc": {
+      "phase1": 0.031143635869637018,
+      "burst": 0.03584269006332882,
+      "fold_change": 1.1508832884304645
+    },
+    "Near-full": {
+      "phase1": 0.0315850563566589,
+      "burst": 0.016150362307111837,
+      "fold_change": 0.5113292224253685
+    },
+    "Random": {
+      "phase1": 0.06647539739832813,
+      "burst": 0.02632885635976802,
+      "fold_change": 0.396069183340154
+    },
+    "Scratch": {
+      "phase1": 0.010047941331036809,
+      "burst": 0.025473036687280327,
+      "fold_change": 2.5351498230386125
+    },
+    "none": {
+      "phase1": 0.6615390820204345,
+      "burst": 0.8159632297988847,
+      "fold_change": 1.233431632348639
+    }
+  },
+  "windows": {
+    "phase_one_0_300": {
+      "n_lots": 300,
+      "die_size_median": 776.0,
+      "die_size_iqr": 543.0,
+      "n_distinct_shapes": 59,
+      "dominant_shape": "(32, 29)",
+      "dominant_shape_share": 0.14,
+      "lot_size_median": 24.0
+    },
+    "quiet_700_1100": {
+      "n_lots": 400,
+      "die_size_median": 2683.0,
+      "die_size_iqr": 2665.25,
+      "n_distinct_shapes": 142,
+      "dominant_shape": "(64, 71)",
+      "dominant_shape_share": 0.0875,
+      "lot_size_median": 24.0
+    },
+    "burst_1100_1500": {
+      "n_lots": 400,
+      "die_size_median": 2367.0,
+      "die_size_iqr": 2739.0,
+      "n_distinct_shapes": 106,
+      "dominant_shape": "(52, 59)",
+      "dominant_shape_share": 0.0975,
+      "lot_size_median": 24.0
+    },
+    "quiet_1500_1900": {
+      "n_lots": 400,
+      "die_size_median": 846.0,
+      "die_size_iqr": 801.0,
+      "n_distinct_shapes": 43,
+      "dominant_shape": "(32, 29)",
+      "dominant_shape_share": 0.26,
+      "lot_size_median": 12.0
+    }
+  }
+}

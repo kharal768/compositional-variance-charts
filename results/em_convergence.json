@@ -1,0 +1,46 @@
+{
+  "dim": 8,
+  "n_unit": 24,
+  "T": 700,
+  "trace_ratio": 0.26,
+  "trace_spread_across_starts": 0.1626433113392287,
+  "loglik_spread_across_starts": 6.55802009618219,
+  "rows": [
+    {
+      "start": "scaled identity, small",
+      "iterations_to_tol": null,
+      "final_loglik": -1857.6173301960089,
+      "trace_error": 0.2388812801397924,
+      "loglik_first": -2055.43665796376,
+      "loglik_last": -1857.6173301960089,
+      "delta_last_10": 0.10516985514618682
+    },
+    {
+      "start": "scaled identity, large",
+      "iterations_to_tol": 265,
+      "final_loglik": -1853.3715174619476,
+      "trace_error": 0.07623796880056367,
+      "loglik_first": -2244.7960479730586,
+      "loglik_last": -1853.3715174619476,
+      "delta_last_10": 0.003271761006772067
+    },
+    {
+      "start": "sample covariance minus sampling",
+      "iterations_to_tol": 3,
+      "final_loglik": -1853.1618306171433,
+      "trace_error": 0.09182968485620217,
+      "loglik_first": -1853.1640946756315,
+      "loglik_last": -1853.1618306171433,
+      "delta_last_10": 5.066772246209439e-08
+    },
+    {
+      "start": "random positive definite",
+      "iterations_to_tol": null,
+      "final_loglik": -1859.7198507133255,
+      "trace_error": 0.13562845854878988,
+      "loglik_first": -2099.8847099714803,
+      "loglik_last": -1859.7198507133255,
+      "delta_last_10": 0.032032327944307326
+    }
+  ]
+}

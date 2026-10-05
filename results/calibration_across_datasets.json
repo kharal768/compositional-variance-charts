@@ -1,0 +1,181 @@
+{
+  "nominal_per_1000": 5.0,
+  "theta": 2.0,
+  "rows": [
+    {
+      "dataset": "digits",
+      "unit": 3,
+      "n_units": 419,
+      "exposure": 219,
+      "dim": 9,
+      "chi2": {
+        "alarms": 2,
+        "rate": 9.132420091324201,
+        "ci": [
+          1.1078982476855221,
+          32.598261419362935
+        ],
+        "covers_nominal": true
+      },
+      "md3_theta2": {
+        "alarms": 0,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          16.703128093158913
+        ],
+        "covers_nominal": true
+      },
+      "bootstrap": {
+        "alarms": 9,
+        "rate": 41.0958904109589,
+        "ci": [
+          18.96115117106602,
+          76.57682518983287
+        ],
+        "covers_nominal": false
+      }
+    },
+    {
+      "dataset": "image_segments",
+      "unit": 4,
+      "n_units": 404,
+      "exposure": 223,
+      "dim": 6,
+      "chi2": {
+        "alarms": 4,
+        "rate": 17.937219730941703,
+        "ci": [
+          4.908376137692246,
+          45.287087469096996
+        ],
+        "covers_nominal": true
+      },
+      "md3_theta2": {
+        "alarms": 0,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          16.405991770247006
+        ],
+        "covers_nominal": true
+      },
+      "bootstrap": {
+        "alarms": 6,
+        "rate": 26.905829596412556,
+        "ci": [
+          9.936611138041485,
+          57.63980404759321
+        ],
+        "covers_nominal": false
+      }
+    },
+    {
+      "dataset": "image_segments",
+      "unit": 6,
+      "n_units": 269,
+      "exposure": 129,
+      "dim": 6,
+      "chi2": {
+        "alarms": 0,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          28.190969749726367
+        ],
+        "covers_nominal": true
+      },
+      "md3_theta2": {
+        "alarms": 0,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          28.190969749726367
+        ],
+        "covers_nominal": true
+      },
+      "bootstrap": {
+        "alarms": 2,
+        "rate": 15.503875968992247,
+        "ci": [
+          1.8831371984284393,
+          54.8825703695903
+        ],
+        "covers_nominal": true
+      }
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 24,
+      "n_units": 811,
+      "exposure": 467,
+      "dim": 8,
+      "chi2": {
+        "alarms": 82,
+        "rate": 175.58886509635974,
+        "ci": [
+          142.15754488667454,
+          213.19084622703818
+        ],
+        "covers_nominal": false
+      },
+      "md3_theta2": {
+        "alarms": 281,
+        "rate": 601.713062098501,
+        "ci": [
+          555.7130417029372,
+          646.4165597616552
+        ],
+        "covers_nominal": false
+      },
+      "bootstrap": {
+        "alarms": 30,
+        "rate": 64.23982869379014,
+        "ci": [
+          43.75846603216681,
+          90.43890970980998
+        ],
+        "covers_nominal": false
+      }
+    },
+    {
+      "dataset": "wm811k",
+      "unit": 48,
+      "n_units": 405,
+      "exposure": 223,
+      "dim": 8,
+      "chi2": {
+        "alarms": 48,
+        "rate": 215.24663677130044,
+        "ci": [
+          163.17721181870294,
+          275.05401940342847
+        ],
+        "covers_nominal": false
+      },
+      "md3_theta2": {
+        "alarms": 156,
+        "rate": 699.5515695067264,
+        "ci": [
+          634.7620333551016,
+          758.9461787306984
+        ],
+        "covers_nominal": false
+      },
+      "bootstrap": {
+        "alarms": 40,
+        "rate": 179.37219730941703,
+        "ci": [
+          131.34639059707686,
+          236.14128899072793
+        ],
+        "covers_nominal": false
+      }
+    }
+  ],
+  "covered": {
+    "chi2": 3,
+    "md3_theta2": 3,
+    "bootstrap": 1
+  }
+}

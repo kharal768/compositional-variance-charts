@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "K": 200,
+      "p": 0.3,
+      "expansion_parameter": 0.016666666666666666,
+      "exact": -1.209884320313933,
+      "error_first": 7.818265466341678e-05,
+      "error_third_only": 0.00010410858058929051,
+      "error_complete": 2.025247255899032e-06
+    },
+    {
+      "K": 200,
+      "p": 0.1,
+      "expansion_parameter": 0.05,
+      "exact": -2.326095513336496,
+      "error_first": 0.0010104203424505798,
+      "error_third_only": 0.0016104203424505137,
+      "error_complete": 9.167034245072259e-05
+    },
+    {
+      "K": 100,
+      "p": 0.3,
+      "expansion_parameter": 0.03333333333333333,
+      "exact": -1.2159610304178674,
+      "error_first": 0.0003215594252645726,
+      "error_third_only": 0.00042526312896828955,
+      "error_complete": 1.6929795634945677e-05
+    },
+    {
+      "K": 100,
+      "p": 0.1,
+      "expansion_parameter": 0.1,
+      "exact": -2.3520703191147936,
+      "error_first": 0.004485226120748198,
+      "error_third_only": 0.006885226120748378,
+      "error_complete": 0.0008102261207483252
+    },
+    {
+      "K": 50,
+      "p": 0.3,
+      "expansion_parameter": 0.06666666666666667,
+      "exact": -1.2286745109938693,
+      "error_first": 0.001368373334599715,
+      "error_third_only": 0.001783188149414583,
+      "error_complete": 0.00014985481608120743
+    },
+    {
+      "K": 50,
+      "p": 0.2,
+      "expansion_parameter": 0.1,
+      "exact": -1.6533164227258919,
+      "error_first": 0.003878510291791537,
+      "error_third_only": 0.005478510291791583,
+      "error_complete": 0.0006785102917916674
+    },
+    {
+      "K": 25,
+      "p": 0.3,
+      "expansion_parameter": 0.13333333333333333,
+      "exact": -1.2565968689046634,
+      "error_first": 0.005957397912060625,
+      "error_third_only": 0.007616657171319874,
+      "error_complete": 0.001083323837986594
+    },
+    {
+      "K": 25,
+      "p": 0.1,
+      "expansion_parameter": 0.4,
+      "exact": -2.3670787888570803,
+      "error_first": 0.11550630413696528,
+      "error_third_only": 0.07710630413696506,
+      "error_complete": 0.17430630413696502
+    },
+    {
+      "K": 25,
+      "p": 0.017,
+      "expansion_parameter": 2.352941176470588,
+      "exact": -3.0750543211758625,
+      "error_first": 2.155958201985352,
+      "error_third_only": 0.4035651224005772,
+      "error_complete": 4.415837786760439
+    }
+  ]
+}

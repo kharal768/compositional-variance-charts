@@ -1,0 +1,67 @@
+[
+  {
+    "dataset": "digits",
+    "unit": 3,
+    "sigma_Z": 2.8157123431118265,
+    "exposure": 219,
+    "corrected": 18.264840182648403,
+    "ci": [
+      4.998422021303249,
+      46.10242259193131
+    ],
+    "covers": true,
+    "uncorrected": 913.2420091324201
+  },
+  {
+    "dataset": "image_segments",
+    "unit": 4,
+    "sigma_Z": 4.472365852526561,
+    "exposure": 223,
+    "corrected": 0.0,
+    "ci": [
+      0.0,
+      16.405991770247006
+    ],
+    "covers": true,
+    "uncorrected": 977.5784753363229
+  },
+  {
+    "dataset": "image_segments",
+    "unit": 6,
+    "sigma_Z": 5.05606669399421,
+    "exposure": 129,
+    "corrected": 0.0,
+    "ci": [
+      0.0,
+      28.190969749726367
+    ],
+    "covers": true,
+    "uncorrected": 984.4961240310078
+  },
+  {
+    "dataset": "wm811k",
+    "unit": 24,
+    "sigma_Z": 1.7591691814585866,
+    "exposure": 467,
+    "corrected": 211.99143468950749,
+    "ci": [
+      175.77504523626715,
+      251.90076757494884
+    ],
+    "covers": false,
+    "uncorrected": 683.083511777302
+  },
+  {
+    "dataset": "wm811k",
+    "unit": 48,
+    "sigma_Z": 2.160498411974077,
+    "exposure": 223,
+    "corrected": 192.8251121076233,
+    "ci": [
+      143.20392542572756,
+      250.81067641288584
+    ],
+    "covers": false,
+    "uncorrected": 780.2690582959641
+  }
+]

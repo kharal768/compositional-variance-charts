@@ -1,0 +1,14 @@
+{
+  "soft": {
+    "min_mean_part": 0.00014693605151139526,
+    "trace_sampling_covariance": 265.05976908071165,
+    "max_diagonal": 143.0300494357622
+  },
+  "hard": {
+    "min_mean_part": 0.017602519673669773,
+    "trace_sampling_covariance": 9.041095946348488,
+    "max_diagonal": 1.904948931363753
+  },
+  "trace_ratio_soft_over_hard": 29.31721670178313,
+  "max_diagonal_ratio_soft_over_hard": 75.08340359201492
+}

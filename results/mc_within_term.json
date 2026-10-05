@@ -1,0 +1,394 @@
+{
+  "nominal_per_1000": 5.0,
+  "streams": 16,
+  "m": 2.5,
+  "rows": [
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, closed form",
+      "direction": "leading coordinate",
+      "power_matched": 0.21810344827586206,
+      "power_nominal": 0.054849137931034485,
+      "power_heldout": 0.28900862068965516,
+      "nominal_limit_rate": 0.10775862068965517,
+      "heldout_limit_rate": 10.560344827586206,
+      "share_streams_silent": 0.9375
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, closed form",
+      "direction": "rarest balance",
+      "power_matched": 0.016271551724137932,
+      "power_nominal": 0.0005387931034482759,
+      "power_heldout": 0.036745689655172414,
+      "nominal_limit_rate": 0.10775862068965517,
+      "heldout_limit_rate": 10.560344827586206,
+      "share_streams_silent": 0.9375
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, closed form",
+      "direction": "equal-weight diagonal",
+      "power_matched": 0.13038793103448276,
+      "power_nominal": 0.02435344827586207,
+      "power_heldout": 0.19159482758620688,
+      "nominal_limit_rate": 0.10775862068965517,
+      "heldout_limit_rate": 10.560344827586206,
+      "share_streams_silent": 0.9375
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, closed form",
+      "direction": "random direction",
+      "power_matched": 0.028556034482758622,
+      "power_nominal": 0.0026939655172413795,
+      "power_heldout": 0.0584051724137931,
+      "nominal_limit_rate": 0.10775862068965517,
+      "heldout_limit_rate": 10.560344827586206,
+      "share_streams_silent": 0.9375
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "leading coordinate",
+      "power_matched": 0.10441810344827586,
+      "power_nominal": 0.1427801724137931,
+      "power_heldout": 0.18480603448275862,
+      "nominal_limit_rate": 9.59051724137931,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "rarest balance",
+      "power_matched": 0.0978448275862069,
+      "power_nominal": 0.13954741379310345,
+      "power_heldout": 0.18092672413793104,
+      "nominal_limit_rate": 9.59051724137931,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "equal-weight diagonal",
+      "power_matched": 0.09159482758620689,
+      "power_nominal": 0.13609913793103448,
+      "power_heldout": 0.17866379310344827,
+      "nominal_limit_rate": 9.59051724137931,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "random direction",
+      "power_matched": 0.09590517241379311,
+      "power_nominal": 0.13922413793103447,
+      "power_heldout": 0.1800646551724138,
+      "nominal_limit_rate": 9.59051724137931,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "plain T2 (F limit)",
+      "direction": "leading coordinate",
+      "power_matched": 0.10431034482758621,
+      "power_nominal": 0.10818965517241379,
+      "power_heldout": 0.18469827586206897,
+      "nominal_limit_rate": 5.387931034482759,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0625
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "plain T2 (F limit)",
+      "direction": "rarest balance",
+      "power_matched": 0.09795258620689655,
+      "power_nominal": 0.10441810344827586,
+      "power_heldout": 0.18092672413793104,
+      "nominal_limit_rate": 5.387931034482759,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0625
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "plain T2 (F limit)",
+      "direction": "equal-weight diagonal",
+      "power_matched": 0.09148706896551724,
+      "power_nominal": 0.09827586206896552,
+      "power_heldout": 0.17877155172413794,
+      "nominal_limit_rate": 5.387931034482759,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0625
+    },
+    {
+      "design": "fixed, 25 items",
+      "chart": "plain T2 (F limit)",
+      "direction": "random direction",
+      "power_matched": 0.09590517241379311,
+      "power_nominal": 0.10161637931034483,
+      "power_heldout": 0.18017241379310345,
+      "nominal_limit_rate": 5.387931034482759,
+      "heldout_limit_rate": 16.810344827586206,
+      "share_streams_silent": 0.0625
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, closed form",
+      "direction": "leading coordinate",
+      "power_matched": 0.1355603448275862,
+      "power_nominal": 0.07370689655172413,
+      "power_heldout": 0.14989224137931034,
+      "nominal_limit_rate": 2.262931034482759,
+      "heldout_limit_rate": 7.112068965517242,
+      "share_streams_silent": 0.125
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, closed form",
+      "direction": "rarest balance",
+      "power_matched": 0.026077586206896552,
+      "power_nominal": 0.010452586206896552,
+      "power_heldout": 0.034375,
+      "nominal_limit_rate": 2.262931034482759,
+      "heldout_limit_rate": 7.112068965517242,
+      "share_streams_silent": 0.125
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, closed form",
+      "direction": "equal-weight diagonal",
+      "power_matched": 0.1257543103448276,
+      "power_nominal": 0.06788793103448276,
+      "power_heldout": 0.14148706896551724,
+      "nominal_limit_rate": 2.262931034482759,
+      "heldout_limit_rate": 7.112068965517242,
+      "share_streams_silent": 0.125
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, closed form",
+      "direction": "random direction",
+      "power_matched": 0.04655172413793104,
+      "power_nominal": 0.021551724137931036,
+      "power_heldout": 0.05571120689655172,
+      "nominal_limit_rate": 2.262931034482759,
+      "heldout_limit_rate": 7.112068965517242,
+      "share_streams_silent": 0.125
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "leading coordinate",
+      "power_matched": 0.060991379310344825,
+      "power_nominal": 0.1254310344827586,
+      "power_heldout": 0.1060344827586207,
+      "nominal_limit_rate": 11.099137931034482,
+      "heldout_limit_rate": 10.129310344827585,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "rarest balance",
+      "power_matched": 0.08362068965517241,
+      "power_nominal": 0.1567887931034483,
+      "power_heldout": 0.1326508620689655,
+      "nominal_limit_rate": 11.099137931034482,
+      "heldout_limit_rate": 10.129310344827585,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "equal-weight diagonal",
+      "power_matched": 0.05732758620689655,
+      "power_nominal": 0.12047413793103448,
+      "power_heldout": 0.10161637931034483,
+      "nominal_limit_rate": 11.099137931034482,
+      "heldout_limit_rate": 10.129310344827585,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "variance components, Monte Carlo term",
+      "direction": "random direction",
+      "power_matched": 0.08502155172413793,
+      "power_nominal": 0.15366379310344827,
+      "power_heldout": 0.1322198275862069,
+      "nominal_limit_rate": 11.099137931034482,
+      "heldout_limit_rate": 10.129310344827585,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "plain T2 (F limit)",
+      "direction": "leading coordinate",
+      "power_matched": 0.08566810344827586,
+      "power_nominal": 0.09342672413793103,
+      "power_heldout": 0.12855603448275862,
+      "nominal_limit_rate": 5.6034482758620685,
+      "heldout_limit_rate": 10.991379310344827,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "plain T2 (F limit)",
+      "direction": "rarest balance",
+      "power_matched": 0.10862068965517241,
+      "power_nominal": 0.1165948275862069,
+      "power_heldout": 0.15150862068965518,
+      "nominal_limit_rate": 5.6034482758620685,
+      "heldout_limit_rate": 10.991379310344827,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "plain T2 (F limit)",
+      "direction": "equal-weight diagonal",
+      "power_matched": 0.10064655172413793,
+      "power_nominal": 0.10678879310344827,
+      "power_heldout": 0.14299568965517243,
+      "nominal_limit_rate": 5.6034482758620685,
+      "heldout_limit_rate": 10.991379310344827,
+      "share_streams_silent": 0.0
+    },
+    {
+      "design": "widely varied, 4-40",
+      "chart": "plain T2 (F limit)",
+      "direction": "random direction",
+      "power_matched": 0.11303879310344828,
+      "power_nominal": 0.12176724137931035,
+      "power_heldout": 0.16088362068965517,
+      "nominal_limit_rate": 5.6034482758620685,
+      "heldout_limit_rate": 10.991379310344827,
+      "share_streams_silent": 0.0
+    }
+  ],
+  "natural_units": [
+    {
+      "design": "fixed, 25 items",
+      "direction": "leading coordinate",
+      "largest_class_change": 0.1621462560988265,
+      "rarest_class_relative_change": -0.7941345998829374,
+      "total_variation": 0.16214625609882646
+    },
+    {
+      "design": "fixed, 25 items",
+      "direction": "rarest balance",
+      "largest_class_change": 0.011634882904676402,
+      "rarest_class_relative_change": -0.8343166498966059,
+      "total_variation": 0.014169213834407904
+    },
+    {
+      "design": "fixed, 25 items",
+      "direction": "equal-weight diagonal",
+      "largest_class_change": 0.14013183302008303,
+      "rarest_class_relative_change": -0.8667130232851885,
+      "total_variation": 0.14013183302008303
+    },
+    {
+      "design": "fixed, 25 items",
+      "direction": "random direction",
+      "largest_class_change": 0.04391261921629419,
+      "rarest_class_relative_change": -0.736180111598188,
+      "total_variation": 0.05597055079969179
+    },
+    {
+      "design": "widely varied, 4-40",
+      "direction": "leading coordinate",
+      "largest_class_change": 0.1637441724128469,
+      "rarest_class_relative_change": -0.8042581329752828,
+      "total_variation": 0.16374417241284678
+    },
+    {
+      "design": "widely varied, 4-40",
+      "direction": "rarest balance",
+      "largest_class_change": 0.01155474578649529,
+      "rarest_class_relative_change": -0.8285701604371865,
+      "total_variation": 0.014071621106325894
+    },
+    {
+      "design": "widely varied, 4-40",
+      "direction": "equal-weight diagonal",
+      "largest_class_change": 0.1474700115175852,
+      "rarest_class_relative_change": -0.8956865416482123,
+      "total_variation": 0.14747001151758515
+    },
+    {
+      "design": "widely varied, 4-40",
+      "direction": "random direction",
+      "largest_class_change": 0.04394827449269445,
+      "rarest_class_relative_change": -0.7366965002080239,
+      "total_variation": 0.056024543812673556
+    }
+  ],
+  "by_size": [
+    {
+      "chart": "variance components, closed form",
+      "size_class": "4-12",
+      "alarms": 0,
+      "units": 2274,
+      "rate": 0.0
+    },
+    {
+      "chart": "variance components, closed form",
+      "size_class": "13-24",
+      "alarms": 0,
+      "units": 3023,
+      "rate": 0.0
+    },
+    {
+      "chart": "variance components, closed form",
+      "size_class": "25-40",
+      "alarms": 21,
+      "units": 3983,
+      "rate": 5.272407732864675
+    },
+    {
+      "chart": "variance components, Monte Carlo term",
+      "size_class": "4-12",
+      "alarms": 66,
+      "units": 2274,
+      "rate": 29.023746701846967
+    },
+    {
+      "chart": "variance components, Monte Carlo term",
+      "size_class": "13-24",
+      "alarms": 22,
+      "units": 3023,
+      "rate": 7.277538868673503
+    },
+    {
+      "chart": "variance components, Monte Carlo term",
+      "size_class": "25-40",
+      "alarms": 15,
+      "units": 3983,
+      "rate": 3.766005523474768
+    },
+    {
+      "chart": "plain T2 (F limit)",
+      "size_class": "4-12",
+      "alarms": 14,
+      "units": 2274,
+      "rate": 6.156552330694811
+    },
+    {
+      "chart": "plain T2 (F limit)",
+      "size_class": "13-24",
+      "alarms": 11,
+      "units": 3023,
+      "rate": 3.6387694343367514
+    },
+    {
+      "chart": "plain T2 (F limit)",
+      "size_class": "25-40",
+      "alarms": 27,
+      "units": 3983,
+      "rate": 6.778809942254582
+    }
+  ]
+}

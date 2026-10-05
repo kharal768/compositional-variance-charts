@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "wm811k",
+    "unit": 24,
+    "estimator": "moment",
+    "lag": 4,
+    "rate": 6.423982869379015,
+    "ci": [
+      1.3267440303162628,
+      18.657992372746158
+    ],
+    "covers": true,
+    "min_eig": -1.7216960451947301e-16,
+    "n_negative": 0,
+    "batch": 0.1832345252659144
+  },
+  {
+    "dataset": "wm811k",
+    "unit": 24,
+    "estimator": "em",
+    "lag": 4,
+    "rate": 6.423982869379015,
+    "ci": [
+      1.3267440303162628,
+      18.657992372746158
+    ],
+    "covers": true,
+    "min_eig": 0.005811769010735018,
+    "n_negative": 0,
+    "batch": 0.20644069731960146
+  },
+  {
+    "dataset": "wm811k",
+    "unit": 48,
+    "estimator": "moment",
+    "lag": 4,
+    "rate": 13.452914798206278,
+    "ci": [
+      2.782953513991908,
+      38.809594233475934
+    ],
+    "covers": true,
+    "min_eig": -4.300468353305448e-17,
+    "n_negative": 0,
+    "batch": 0.35609972591718536
+  },
+  {
+    "dataset": "wm811k",
+    "unit": 48,
+    "estimator": "em",
+    "lag": 4,
+    "rate": 13.452914798206278,
+    "ci": [
+      2.782953513991908,
+      38.809594233475934
+    ],
+    "covers": true,
+    "min_eig": 0.004694336570768268,
+    "n_negative": 0,
+    "batch": 0.38448569302054636
+  },
+  {
+    "dataset": "digits",
+    "unit": 3,
+    "estimator": "moment",
+    "lag": 1,
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      16.703128093158913
+    ],
+    "covers": true,
+    "min_eig": 0.0,
+    "n_negative": 0,
+    "batch": 0.0
+  },
+  {
+    "dataset": "digits",
+    "unit": 3,
+    "estimator": "em",
+    "lag": 1,
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      16.703128093158913
+    ],
+    "covers": true,
+    "min_eig": 0.01520556063836677,
+    "n_negative": 0,
+    "batch": 0.004832927249984572
+  },
+  {
+    "dataset": "image_segments",
+    "unit": 4,
+    "estimator": "moment",
+    "lag": 1,
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      16.405991770247006
+    ],
+    "covers": true,
+    "min_eig": 0.0,
+    "n_negative": 0,
+    "batch": 0.0
+  },
+  {
+    "dataset": "image_segments",
+    "unit": 4,
+    "estimator": "em",
+    "lag": 1,
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      16.405991770247006
+    ],
+    "covers": true,
+    "min_eig": 0.010282837619977727,
+    "n_negative": 0,
+    "batch": 0.006353686061224278
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "nominal_per_1000": 5.0,
+  "theta": 2.0,
+  "permuted": false,
+  "rows": [
+    {
+      "lots_per_unit": 1,
+      "n_units": 2860,
+      "median_wafers_per_unit": 22,
+      "chi2_per_1000": 162.14622641509433,
+      "md3_theta2_per_1000": 742.3349056603773,
+      "bootstrap_per_1000": 22.995283018867923,
+      "md3_sigma": 0.05760297966693466,
+      "chi2_limit": 21.95495499065953,
+      "bootstrap_limit": 60.029933641053745
+    },
+    {
+      "lots_per_unit": 2,
+      "n_units": 1430,
+      "median_wafers_per_unit": 32,
+      "chi2_per_1000": 188.54415274463008,
+      "md3_theta2_per_1000": 836.5155131264917,
+      "bootstrap_per_1000": 58.472553699284006,
+      "md3_sigma": 0.04612820946653652,
+      "chi2_limit": 21.95495499065953,
+      "bootstrap_limit": 43.904335180619874
+    },
+    {
+      "lots_per_unit": 4,
+      "n_units": 715,
+      "median_wafers_per_unit": 69,
+      "chi2_per_1000": 234.71882640586796,
+      "md3_theta2_per_1000": 911.9804400977995,
+      "bootstrap_per_1000": 105.13447432762837,
+      "md3_sigma": 0.03273742794149614,
+      "chi2_limit": 21.95495499065953,
+      "bootstrap_limit": 40.494056482342536
+    }
+  ]
+}

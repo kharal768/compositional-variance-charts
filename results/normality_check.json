@@ -1,0 +1,34 @@
+{
+  "unit": 24,
+  "n_evaluated": 467,
+  "ks_statistic": 0.44237195931477513,
+  "ks_pvalue": 1.3666530116801432e-83,
+  "levels": [
+    {
+      "nominal_per_1000": 50.0,
+      "simulated_limit": 15.491885871821014,
+      "empirical_quantile": 14.329401241299484,
+      "realised_per_1000": 34.261241970021416
+    },
+    {
+      "nominal_per_1000": 20.0,
+      "simulated_limit": 18.17729348614212,
+      "empirical_quantile": 16.676929932487514,
+      "realised_per_1000": 14.98929336188437
+    },
+    {
+      "nominal_per_1000": 10.0,
+      "simulated_limit": 20.128287586530398,
+      "empirical_quantile": 19.302946639623297,
+      "realised_per_1000": 6.423982869379015
+    },
+    {
+      "nominal_per_1000": 5.0,
+      "simulated_limit": 22.023206225546108,
+      "empirical_quantile": 23.188041447009997,
+      "realised_per_1000": 6.423982869379015
+    }
+  ],
+  "chi2_limit": 21.95495499065953,
+  "chi2_realised": 6.423982869379015
+}

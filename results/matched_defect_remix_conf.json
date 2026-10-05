@@ -1,0 +1,57 @@
+{
+  "mode": "defect_remix",
+  "ramp_lots": 0,
+  "fa_budget_per_1000": 5.0,
+  "target_rate_per_lot": 0.005,
+  "n_eval_lots": 880,
+  "methods": {
+    "ilr_mewma": {
+      "threshold": 80.9843443083239,
+      "false_alarm_episodes_clean": 2,
+      "false_alarm_lots_clean": 4,
+      "fa_lots_per_1000_clean": 4.545454545454546,
+      "fa_episodes_per_1000_clean": 2.272727272727273,
+      "detection_delay": 92.0
+    },
+    "proportion_mewma": {
+      "threshold": 1593.5035722232255,
+      "false_alarm_episodes_clean": 2,
+      "false_alarm_lots_clean": 4,
+      "fa_lots_per_1000_clean": 4.545454545454546,
+      "fa_episodes_per_1000_clean": 2.272727272727273,
+      "detection_delay": 117.0
+    },
+    "page_hinkley_confidence": {
+      "threshold": 73.37432429814953,
+      "false_alarm_episodes_clean": 2,
+      "false_alarm_lots_clean": 4,
+      "fa_lots_per_1000_clean": 4.545454545454546,
+      "fa_episodes_per_1000_clean": 2.272727272727273,
+      "detection_delay": 391.0
+    },
+    "adwin_confidence": {
+      "threshold": 1.2467498137885995,
+      "false_alarm_episodes_clean": 4,
+      "false_alarm_lots_clean": 4,
+      "fa_lots_per_1000_clean": 4.545454545454546,
+      "fa_episodes_per_1000_clean": 4.545454545454546,
+      "detection_delay": 46.0
+    },
+    "ks_confidence": {
+      "threshold": 9.947724542867173,
+      "false_alarm_episodes_clean": 1,
+      "false_alarm_lots_clean": 1,
+      "fa_lots_per_1000_clean": 1.1363636363636365,
+      "fa_episodes_per_1000_clean": 1.1363636363636365,
+      "detection_delay": 324.0
+    },
+    "mmd_ilr": {
+      "threshold": 2.0791812460476247,
+      "false_alarm_episodes_clean": 0,
+      "false_alarm_lots_clean": 0,
+      "fa_lots_per_1000_clean": 0.0,
+      "fa_episodes_per_1000_clean": 0.0,
+      "detection_delay": Infinity
+    }
+  }
+}

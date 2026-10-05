@@ -1,0 +1,51 @@
+{
+  "unit": 24,
+  "streams": 300,
+  "phase_one": 240,
+  "rows": [
+    {
+      "between_scale": 0.0,
+      "between_share_closed_form": 0.0,
+      "alarms": 992,
+      "exposure": 102000,
+      "rate": 9.72549019607843,
+      "ci": [
+        9.132304513504689,
+        10.346798292546227
+      ]
+    },
+    {
+      "between_scale": 0.25,
+      "between_share_closed_form": 0.06716417910447761,
+      "alarms": 540,
+      "exposure": 102000,
+      "rate": 5.294117647058823,
+      "ci": [
+        4.857990137697554,
+        5.758727431596013
+      ]
+    },
+    {
+      "between_scale": 1.0,
+      "between_share_closed_form": 0.2236024844720497,
+      "alarms": 512,
+      "exposure": 102000,
+      "rate": 5.019607843137255,
+      "ci": [
+        4.595129561967204,
+        5.472595073874574
+      ]
+    },
+    {
+      "between_scale": 4.0,
+      "between_share_closed_form": 0.5353159851301116,
+      "alarms": 505,
+      "exposure": 102000,
+      "rate": 4.950980392156863,
+      "ci": [
+        4.529464613979432,
+        5.401011930272289
+      ]
+    }
+  ]
+}

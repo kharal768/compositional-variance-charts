@@ -1,0 +1,332 @@
+{
+  "theta": 10.0,
+  "chunk": 24,
+  "reference": {
+    "folds": [
+      0.07873050946437525,
+      0.005041099359111025
+    ],
+    "chunks": [
+      0.0790625,
+      0.0560397025538645
+    ]
+  },
+  "in_control": {
+    "folds": [
+      {
+        "change_point": 450,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 96,
+        "pre_change_rate_per_1000": 738.4615384615385
+      }
+    ],
+    "chunks": [
+      {
+        "change_point": 450,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      }
+    ]
+  },
+  "top25": {
+    "folds": [
+      {
+        "change_point": 450,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 96,
+        "pre_change_rate_per_1000": 738.4615384615385
+      },
+      {
+        "change_point": 500,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 138,
+        "pre_change_rate_per_1000": 766.6666666666666
+      },
+      {
+        "change_point": 550,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 173,
+        "pre_change_rate_per_1000": 752.1739130434783
+      },
+      {
+        "change_point": 600,
+        "delay": 1.0,
+        "pre_change_alarm_lots": 211,
+        "pre_change_rate_per_1000": 753.5714285714286
+      },
+      {
+        "change_point": 650,
+        "delay": 1.0,
+        "pre_change_alarm_lots": 247,
+        "pre_change_rate_per_1000": 748.4848484848485
+      },
+      {
+        "change_point": 700,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 292,
+        "pre_change_rate_per_1000": 768.421052631579
+      },
+      {
+        "change_point": 750,
+        "delay": 1.0,
+        "pre_change_alarm_lots": 335,
+        "pre_change_rate_per_1000": 779.0697674418604
+      },
+      {
+        "change_point": 800,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 375,
+        "pre_change_rate_per_1000": 781.25
+      },
+      {
+        "change_point": 850,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 420,
+        "pre_change_rate_per_1000": 792.4528301886793
+      },
+      {
+        "change_point": 900,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 451,
+        "pre_change_rate_per_1000": 777.5862068965517
+      },
+      {
+        "change_point": 950,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 498,
+        "pre_change_rate_per_1000": 790.4761904761905
+      },
+      {
+        "change_point": 1000,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 544,
+        "pre_change_rate_per_1000": 800.0
+      }
+    ],
+    "chunks": [
+      {
+        "change_point": 450,
+        "delay": 10.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 500,
+        "delay": 8.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 550,
+        "delay": 9.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 600,
+        "delay": 10.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 650,
+        "delay": 9.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 700,
+        "delay": 9.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 750,
+        "delay": 9.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 800,
+        "delay": 10.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 850,
+        "delay": 8.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 900,
+        "delay": 9.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 950,
+        "delay": 9.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 1000,
+        "delay": 10.0,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      }
+    ]
+  },
+  "bottom25": {
+    "folds": [
+      {
+        "change_point": 450,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 96,
+        "pre_change_rate_per_1000": 738.4615384615385
+      },
+      {
+        "change_point": 500,
+        "delay": 3.0,
+        "pre_change_alarm_lots": 138,
+        "pre_change_rate_per_1000": 766.6666666666666
+      },
+      {
+        "change_point": 550,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 173,
+        "pre_change_rate_per_1000": 752.1739130434783
+      },
+      {
+        "change_point": 600,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 211,
+        "pre_change_rate_per_1000": 753.5714285714286
+      },
+      {
+        "change_point": 650,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 247,
+        "pre_change_rate_per_1000": 748.4848484848485
+      },
+      {
+        "change_point": 700,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 292,
+        "pre_change_rate_per_1000": 768.421052631579
+      },
+      {
+        "change_point": 750,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 335,
+        "pre_change_rate_per_1000": 779.0697674418604
+      },
+      {
+        "change_point": 800,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 375,
+        "pre_change_rate_per_1000": 781.25
+      },
+      {
+        "change_point": 850,
+        "delay": 1.0,
+        "pre_change_alarm_lots": 420,
+        "pre_change_rate_per_1000": 792.4528301886793
+      },
+      {
+        "change_point": 900,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 451,
+        "pre_change_rate_per_1000": 777.5862068965517
+      },
+      {
+        "change_point": 950,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 498,
+        "pre_change_rate_per_1000": 790.4761904761905
+      },
+      {
+        "change_point": 1000,
+        "delay": 0.0,
+        "pre_change_alarm_lots": 544,
+        "pre_change_rate_per_1000": 800.0
+      }
+    ],
+    "chunks": [
+      {
+        "change_point": 450,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 500,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 550,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 600,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 650,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 700,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 750,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 800,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 850,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 900,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 950,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      },
+      {
+        "change_point": 1000,
+        "delay": Infinity,
+        "pre_change_alarm_lots": 0,
+        "pre_change_rate_per_1000": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "nominal_per_1000": 5.0,
+  "n_permutations": 200,
+  "units": {
+    "24": {
+      "observed_rate": 184.1541755888651,
+      "observed_ci": [
+        150.02290177598843,
+        222.34315577936073
+      ],
+      "exposure_units": 467,
+      "expected_alarms_at_nominal": 2.335,
+      "null_mean": 0.0,
+      "null_sd": 0.0,
+      "null_min": 0.0,
+      "null_max": 0.0,
+      "null_q95": 0.0,
+      "p_value": 0.004975124378109453
+    },
+    "48": {
+      "observed_rate": 627.8026905829596,
+      "observed_ci": [
+        560.751735038905,
+        691.4064471830886
+      ],
+      "exposure_units": 223,
+      "expected_alarms_at_nominal": 1.115,
+      "null_mean": 3.9910313901345287,
+      "null_sd": 4.535614695623258,
+      "null_min": 0.0,
+      "null_max": 26.905829596412556,
+      "null_q95": 13.452914798206278,
+      "p_value": 0.004975124378109453
+    }
+  }
+}

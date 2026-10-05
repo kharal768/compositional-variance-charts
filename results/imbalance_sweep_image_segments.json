@@ -1,0 +1,197 @@
+{
+  "dataset": "image_segments",
+  "unit": 4,
+  "stream_samples": 1500,
+  "train_accuracy_clean": 1.0,
+  "train_accuracy_rotated": 0.6101485148514851,
+  "spearman_rho": -0.14285714285714288,
+  "spearman_p": 0.7871720116618076,
+  "rows": [
+    {
+      "dominant_share_target": 0.1,
+      "dominant_share_realised": 0.15845178316849165,
+      "n_units": 375,
+      "methods": {
+        "ilr_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 26.0,
+          "restricted_mean": 25.6
+        },
+        "proportion_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 2.0,
+          "restricted_mean": 3.6
+        },
+        "ks_confidence": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 18.0,
+          "restricted_mean": 36.8
+        },
+        "md3_rs": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 1.0,
+          "restricted_mean": 0.6
+        }
+      }
+    },
+    {
+      "dominant_share_target": 0.25,
+      "dominant_share_realised": 0.24795529669274616,
+      "n_units": 374,
+      "methods": {
+        "ilr_mewma": {
+          "n_detected": 0,
+          "n_runs": 5,
+          "median": null,
+          "restricted_mean": 200.0
+        },
+        "proportion_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 7.0,
+          "restricted_mean": 7.0
+        },
+        "ks_confidence": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 18.0,
+          "restricted_mean": 33.8
+        },
+        "md3_rs": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 1.0,
+          "restricted_mean": 1.4
+        }
+      }
+    },
+    {
+      "dominant_share_target": 0.4,
+      "dominant_share_realised": 0.3945060098193636,
+      "n_units": 375,
+      "methods": {
+        "ilr_mewma": {
+          "n_detected": 1,
+          "n_runs": 5,
+          "median": 13.0,
+          "restricted_mean": 162.6
+        },
+        "proportion_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 10.0,
+          "restricted_mean": 10.8
+        },
+        "ks_confidence": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 18.0,
+          "restricted_mean": 35.2
+        },
+        "md3_rs": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 4.0,
+          "restricted_mean": 4.6
+        }
+      }
+    },
+    {
+      "dominant_share_target": 0.55,
+      "dominant_share_realised": 0.5501043712297005,
+      "n_units": 374,
+      "methods": {
+        "ilr_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 9.0,
+          "restricted_mean": 12.4
+        },
+        "proportion_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 41.0,
+          "restricted_mean": 50.2
+        },
+        "ks_confidence": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 18.0,
+          "restricted_mean": 33.2
+        },
+        "md3_rs": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 3.0,
+          "restricted_mean": 3.0
+        }
+      }
+    },
+    {
+      "dominant_share_target": 0.7,
+      "dominant_share_realised": 0.6920446693385793,
+      "n_units": 375,
+      "methods": {
+        "ilr_mewma": {
+          "n_detected": 4,
+          "n_runs": 5,
+          "median": 80.0,
+          "restricted_mean": 103.8
+        },
+        "proportion_mewma": {
+          "n_detected": 0,
+          "n_runs": 5,
+          "median": null,
+          "restricted_mean": 200.0
+        },
+        "ks_confidence": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 18.0,
+          "restricted_mean": 33.0
+        },
+        "md3_rs": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 1.0,
+          "restricted_mean": 2.0
+        }
+      }
+    },
+    {
+      "dominant_share_target": 0.85,
+      "dominant_share_realised": 0.8421298063304338,
+      "n_units": 374,
+      "methods": {
+        "ilr_mewma": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 29.0,
+          "restricted_mean": 38.8
+        },
+        "proportion_mewma": {
+          "n_detected": 0,
+          "n_runs": 5,
+          "median": null,
+          "restricted_mean": 200.0
+        },
+        "ks_confidence": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 18.0,
+          "restricted_mean": 34.6
+        },
+        "md3_rs": {
+          "n_detected": 5,
+          "n_runs": 5,
+          "median": 11.0,
+          "restricted_mean": 13.2
+        }
+      }
+    }
+  ]
+}

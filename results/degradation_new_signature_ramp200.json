@@ -1,0 +1,88 @@
+{
+  "mode": "new_signature",
+  "severity": 1.0,
+  "ramp_lots": 200,
+  "change_point_lot": 800,
+  "undegraded_control": {
+    "false_alarm_episodes": 2.0,
+    "episodes_per_1000_lots": 2.272727272727273,
+    "detection_delay": NaN,
+    "detected": NaN
+  },
+  "class_shift": {
+    "Center": {
+      "before": 0.022190025382649577,
+      "after": 0.026026601033721116
+    },
+    "Donut": {
+      "before": 0.005369557727938723,
+      "after": 0.06701138284322862
+    },
+    "Edge-Loc": {
+      "before": 0.042006721503509835,
+      "after": 0.08673199458631338
+    },
+    "Edge-Ring": {
+      "before": 0.08638866499176837,
+      "after": 0.031396937822007136
+    },
+    "Loc": {
+      "before": 0.03405050570779572,
+      "after": 0.040855396246869
+    },
+    "Near-full": {
+      "before": 0.0087890187875144,
+      "after": 0.026177603602717623
+    },
+    "Random": {
+      "before": 0.017144830556371452,
+      "after": 0.04591515494276914
+    },
+    "Scratch": {
+      "before": 0.011043911754152105,
+      "after": 0.6398123568500422
+    },
+    "none": {
+      "before": 0.7730167635883,
+      "after": 0.0360725720723318
+    }
+  },
+  "methods": {
+    "ilr_mewma": {
+      "false_alarm_episodes": 0.0,
+      "episodes_per_1000_lots": 0.0,
+      "detection_delay": 4.0,
+      "detected": 1.0
+    },
+    "proportion_mewma": {
+      "false_alarm_episodes": 18.0,
+      "episodes_per_1000_lots": 37.5,
+      "detection_delay": 0.0,
+      "detected": 1.0
+    },
+    "page_hinkley_confidence": {
+      "false_alarm_episodes": 0.0,
+      "episodes_per_1000_lots": 0.0,
+      "detection_delay": Infinity,
+      "detected": 0.0
+    },
+    "adwin_confidence": {
+      "false_alarm_episodes": 0.0,
+      "episodes_per_1000_lots": 0.0,
+      "detection_delay": 186.0,
+      "detected": 1.0
+    },
+    "ks_confidence": {
+      "false_alarm_episodes": 7.0,
+      "episodes_per_1000_lots": 14.583333333333334,
+      "detection_delay": 0.0,
+      "detected": 1.0
+    },
+    "mmd_ilr": {
+      "false_alarm_episodes": 28.0,
+      "episodes_per_1000_lots": 58.333333333333336,
+      "detection_delay": 0.0,
+      "detected": 1.0
+    }
+  }
+}

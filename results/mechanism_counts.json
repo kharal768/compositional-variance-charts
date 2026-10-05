@@ -1,0 +1,94 @@
+{
+  "nominal_per_1000": 5.0,
+  "chart": "uncorrected multinomial",
+  "rows": [
+    {
+      "mode": "hard",
+      "unit": 24,
+      "lot_structured": {
+        "rate": 184.1541755888651,
+        "ci": [
+          150.02290177598843,
+          222.34315577936073
+        ],
+        "exposure": 467,
+        "covers": false
+      },
+      "item_shuffled": {
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          7.867983570338293
+        ],
+        "exposure": 467,
+        "covers": true
+      }
+    },
+    {
+      "mode": "hard",
+      "unit": 48,
+      "lot_structured": {
+        "rate": 627.8026905829596,
+        "ci": [
+          560.751735038905,
+          691.4064471830886
+        ],
+        "exposure": 223,
+        "covers": false
+      },
+      "item_shuffled": {
+        "rate": 8.968609865470851,
+        "ci": [
+          1.087991705061996,
+          32.020389850441866
+        ],
+        "exposure": 223,
+        "covers": true
+      }
+    },
+    {
+      "mode": "soft",
+      "unit": 24,
+      "lot_structured": {
+        "rate": 683.083511777302,
+        "ci": [
+          638.7522288100373,
+          725.0773991651428
+        ],
+        "exposure": 467,
+        "covers": false
+      },
+      "item_shuffled": {
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          7.867983570338293
+        ],
+        "exposure": 467,
+        "covers": true
+      }
+    },
+    {
+      "mode": "soft",
+      "unit": 48,
+      "lot_structured": {
+        "rate": 780.2690582959641,
+        "ci": [
+          720.125972204104,
+          832.798825364251
+        ],
+        "exposure": 223,
+        "covers": false
+      },
+      "item_shuffled": {
+        "rate": 62.780269058295964,
+        "ci": [
+          34.74434624401332,
+          103.09199684179887
+        ],
+        "exposure": 223,
+        "covers": false
+      }
+    }
+  ]
+}

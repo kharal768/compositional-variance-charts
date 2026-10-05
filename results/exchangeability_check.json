@@ -1,0 +1,86 @@
+[
+  {
+    "rate": 41.0958904109589,
+    "ci": [
+      18.96115117106602,
+      76.57682518983287
+    ],
+    "covers": false,
+    "exposure": 219,
+    "dim": 9,
+    "dataset": "digits",
+    "unit": 3,
+    "ratio": 20,
+    "order": "as-sampled"
+  },
+  {
+    "rate": 9.132420091324201,
+    "ci": [
+      1.1078982476855221,
+      32.598261419362935
+    ],
+    "covers": true,
+    "exposure": 219,
+    "dim": 9,
+    "dataset": "digits",
+    "unit": 3,
+    "ratio": 20,
+    "order": "wafer/row-shuffled"
+  },
+  {
+    "rate": 22.727272727272727,
+    "ci": [
+      8.385128824061704,
+      48.80878234601617
+    ],
+    "covers": false,
+    "exposure": 264,
+    "dim": 6,
+    "dataset": "image_segments",
+    "unit": 4,
+    "ratio": 20,
+    "order": "as-sampled"
+  },
+  {
+    "rate": 7.575757575757576,
+    "ci": [
+      0.9187797497188024,
+      27.096779508853427
+    ],
+    "covers": true,
+    "exposure": 264,
+    "dim": 6,
+    "dataset": "image_segments",
+    "unit": 4,
+    "ratio": 20,
+    "order": "wafer/row-shuffled"
+  },
+  {
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      25.29188148751663
+    ],
+    "covers": true,
+    "exposure": 144,
+    "dim": 6,
+    "dataset": "image_segments",
+    "unit": 4,
+    "ratio": 40,
+    "order": "as-sampled"
+  },
+  {
+    "rate": 0.0,
+    "ci": [
+      0.0,
+      25.29188148751663
+    ],
+    "covers": true,
+    "exposure": 144,
+    "dim": 6,
+    "dataset": "image_segments",
+    "unit": 4,
+    "ratio": 40,
+    "order": "wafer/row-shuffled"
+  }
+]
