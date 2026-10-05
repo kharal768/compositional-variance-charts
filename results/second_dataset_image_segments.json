@@ -1,0 +1,228 @@
+{
+  "dataset": "image_segments",
+  "n_samples": 2310,
+  "n_classes": 7,
+  "unit": 4,
+  "n_units": 433,
+  "phase_one": 173,
+  "arms": {
+    "top": {
+      "n_features_rotated": 4,
+      "train_accuracy_clean": 1.0,
+      "train_accuracy_rotated": 0.8648180242634316,
+      "methods": {
+        "ilr_mewma": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 23.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 17.5
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 8.0
+          }
+        },
+        "proportion_mewma": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 26.5
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 26.5
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 16.5
+          }
+        },
+        "md3_conf": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 6.5
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 6.5
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 5.5
+          }
+        },
+        "md3_rs": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 1.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 1.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 1.0
+          }
+        },
+        "adwin_confidence": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 5,
+            "median": 7.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 5,
+            "median": 7.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 4.5
+          }
+        },
+        "ks_confidence": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 17.5
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 17.5
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 17.5
+          }
+        }
+      }
+    },
+    "bottom": {
+      "n_features_rotated": 4,
+      "train_accuracy_clean": 1.0,
+      "train_accuracy_rotated": 0.9358752166377816,
+      "methods": {
+        "ilr_mewma": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 5,
+            "median": 84.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 97.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 33.0
+          }
+        },
+        "proportion_mewma": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 48.5
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 48.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 16.5
+          }
+        },
+        "md3_conf": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 10.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 10.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 10.0
+          }
+        },
+        "md3_rs": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 13.5
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 13.5
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 12.5
+          }
+        },
+        "adwin_confidence": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 5,
+            "median": 3.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 5,
+            "median": 3.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 6.0
+          }
+        },
+        "ks_confidence": {
+          "1.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 20.0
+          },
+          "5.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 20.0
+          },
+          "20.0": {
+            "n_runs": 6,
+            "n_detected": 6,
+            "median": 20.0
+          }
+        }
+      }
+    }
+  }
+}

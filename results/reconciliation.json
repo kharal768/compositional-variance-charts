@@ -1,0 +1,61 @@
+{
+  "pipeline config (1,500 lots)": {
+    "lots_in_stream": 1500,
+    "phase1_mean_norm": 3.8264045128502113,
+    "phase1_total_var": 13.694854320191553,
+    "phase1_median_lot_size": 24.0,
+    "lag1_dependence": 0.24783230947054924,
+    "prewhitened": false,
+    "limit": 95.70970332690125,
+    "eval_lots": 1200,
+    "far_per_1000": 14.40677966101695
+  },
+  "diagnostic config (all lots)": {
+    "lots_in_stream": 2860,
+    "phase1_mean_norm": 3.8264045128502113,
+    "phase1_total_var": 13.694854320191553,
+    "phase1_median_lot_size": 24.0,
+    "lag1_dependence": 0.24783230947054924,
+    "prewhitened": false,
+    "limit": 95.70970332690125,
+    "eval_lots": 2560,
+    "far_per_1000": 9.84251968503937
+  },
+  "alarm_profile": [
+    {
+      "from_lot": 300,
+      "n": 400,
+      "rate": 0.0
+    },
+    {
+      "from_lot": 700,
+      "n": 400,
+      "rate": 5.0
+    },
+    {
+      "from_lot": 1100,
+      "n": 400,
+      "rate": 37.5
+    },
+    {
+      "from_lot": 1500,
+      "n": 400,
+      "rate": 5.0
+    },
+    {
+      "from_lot": 1900,
+      "n": 400,
+      "rate": 5.0
+    },
+    {
+      "from_lot": 2300,
+      "n": 400,
+      "rate": 10.0
+    },
+    {
+      "from_lot": 2700,
+      "n": 160,
+      "rate": 0.0
+    }
+  ]
+}

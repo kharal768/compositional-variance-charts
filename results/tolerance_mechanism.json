@@ -1,0 +1,140 @@
+{
+  "nominal_per_1000": 5.0,
+  "unit": 24,
+  "T": 1400,
+  "closed_over_true_trace": 6.993674990464943,
+  "rows": [
+    {
+      "family": "whole term",
+      "k": 0.1,
+      "assumed_over_true": 0.6993674990464944,
+      "rate": 8.536585365853659,
+      "ci": [
+        3.4388403676694446,
+        17.509107228212287
+      ],
+      "covers": true
+    },
+    {
+      "family": "whole term",
+      "k": 0.25,
+      "assumed_over_true": 1.7484187476162358,
+      "rate": 1.2195121951219512,
+      "ci": [
+        0.030874898951093972,
+        6.775776509444487
+      ],
+      "covers": true
+    },
+    {
+      "family": "whole term",
+      "k": 0.5,
+      "assumed_over_true": 3.496837495232472,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "whole term",
+      "k": 1.0,
+      "assumed_over_true": 6.993674990464943,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "whole term",
+      "k": 2.0,
+      "assumed_over_true": 13.987349980929888,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "whole term",
+      "k": 4.0,
+      "assumed_over_true": 27.974699961859773,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "one balance",
+      "k": 0.1,
+      "assumed_over_true": 6.807707742758457,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "one balance",
+      "k": 0.25,
+      "assumed_over_true": 6.838702284042872,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "one balance",
+      "k": 0.5,
+      "assumed_over_true": 6.890359852850229,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "one balance",
+      "k": 1.0,
+      "assumed_over_true": 6.993674990464943,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "one balance",
+      "k": 2.0,
+      "assumed_over_true": 7.200305265694373,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    },
+    {
+      "family": "one balance",
+      "k": 4.0,
+      "assumed_over_true": 7.61356581615323,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        4.488529785648584
+      ],
+      "covers": false
+    }
+  ]
+}

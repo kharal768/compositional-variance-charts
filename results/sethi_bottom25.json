@@ -1,0 +1,1040 @@
+{
+  "protocol": "sethi",
+  "which": "bottom",
+  "fraction": 0.25,
+  "n_features_rotated": 15,
+  "macro_f1_clean": 0.9228323896656008,
+  "macro_f1_rotated": 0.9030901260987301,
+  "change_points": [
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000
+  ],
+  "runs": {
+    "ilr_mewma": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": Infinity
+        },
+        {
+          "change_point": 500,
+          "delay": Infinity
+        },
+        {
+          "change_point": 550,
+          "delay": Infinity
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity
+        },
+        {
+          "change_point": 850,
+          "delay": 152.0
+        },
+        {
+          "change_point": 900,
+          "delay": 102.0
+        },
+        {
+          "change_point": 950,
+          "delay": 52.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 389.0
+        },
+        {
+          "change_point": 500,
+          "delay": 339.0
+        },
+        {
+          "change_point": 550,
+          "delay": 289.0
+        },
+        {
+          "change_point": 600,
+          "delay": 239.0
+        },
+        {
+          "change_point": 650,
+          "delay": 189.0
+        },
+        {
+          "change_point": 700,
+          "delay": 139.0
+        },
+        {
+          "change_point": 750,
+          "delay": 89.0
+        },
+        {
+          "change_point": 800,
+          "delay": 41.0
+        },
+        {
+          "change_point": 850,
+          "delay": 152.0
+        },
+        {
+          "change_point": 900,
+          "delay": 102.0
+        },
+        {
+          "change_point": 950,
+          "delay": 52.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 151.0
+        },
+        {
+          "change_point": 500,
+          "delay": 101.0
+        },
+        {
+          "change_point": 550,
+          "delay": 51.0
+        },
+        {
+          "change_point": 600,
+          "delay": 1.0
+        },
+        {
+          "change_point": 650,
+          "delay": 5.0
+        },
+        {
+          "change_point": 700,
+          "delay": 138.0
+        },
+        {
+          "change_point": 750,
+          "delay": 88.0
+        },
+        {
+          "change_point": 800,
+          "delay": 38.0
+        },
+        {
+          "change_point": 850,
+          "delay": 60.0
+        },
+        {
+          "change_point": 900,
+          "delay": 10.0
+        },
+        {
+          "change_point": 950,
+          "delay": 14.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ]
+    },
+    "proportion_mewma": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": Infinity
+        },
+        {
+          "change_point": 500,
+          "delay": Infinity
+        },
+        {
+          "change_point": 550,
+          "delay": Infinity
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity
+        },
+        {
+          "change_point": 850,
+          "delay": Infinity
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity
+        },
+        {
+          "change_point": 950,
+          "delay": 52.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 459.0
+        },
+        {
+          "change_point": 500,
+          "delay": 409.0
+        },
+        {
+          "change_point": 550,
+          "delay": 359.0
+        },
+        {
+          "change_point": 600,
+          "delay": 310.0
+        },
+        {
+          "change_point": 650,
+          "delay": 260.0
+        },
+        {
+          "change_point": 700,
+          "delay": 210.0
+        },
+        {
+          "change_point": 750,
+          "delay": 160.0
+        },
+        {
+          "change_point": 800,
+          "delay": 110.0
+        },
+        {
+          "change_point": 850,
+          "delay": 60.0
+        },
+        {
+          "change_point": 900,
+          "delay": 10.0
+        },
+        {
+          "change_point": 950,
+          "delay": 52.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 151.0
+        },
+        {
+          "change_point": 500,
+          "delay": 101.0
+        },
+        {
+          "change_point": 550,
+          "delay": 51.0
+        },
+        {
+          "change_point": 600,
+          "delay": 1.0
+        },
+        {
+          "change_point": 650,
+          "delay": 258.0
+        },
+        {
+          "change_point": 700,
+          "delay": 208.0
+        },
+        {
+          "change_point": 750,
+          "delay": 158.0
+        },
+        {
+          "change_point": 800,
+          "delay": 108.0
+        },
+        {
+          "change_point": 850,
+          "delay": 58.0
+        },
+        {
+          "change_point": 900,
+          "delay": 9.0
+        },
+        {
+          "change_point": 950,
+          "delay": 14.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ]
+    },
+    "md3_conf": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": Infinity
+        },
+        {
+          "change_point": 500,
+          "delay": Infinity
+        },
+        {
+          "change_point": 550,
+          "delay": Infinity
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity
+        },
+        {
+          "change_point": 850,
+          "delay": Infinity
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0
+        },
+        {
+          "change_point": 950,
+          "delay": 102.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 52.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 411.0
+        },
+        {
+          "change_point": 500,
+          "delay": 361.0
+        },
+        {
+          "change_point": 550,
+          "delay": 311.0
+        },
+        {
+          "change_point": 600,
+          "delay": 261.0
+        },
+        {
+          "change_point": 650,
+          "delay": 211.0
+        },
+        {
+          "change_point": 700,
+          "delay": 161.0
+        },
+        {
+          "change_point": 750,
+          "delay": 111.0
+        },
+        {
+          "change_point": 800,
+          "delay": 61.0
+        },
+        {
+          "change_point": 850,
+          "delay": 11.0
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0
+        },
+        {
+          "change_point": 950,
+          "delay": 102.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 52.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 411.0
+        },
+        {
+          "change_point": 500,
+          "delay": 361.0
+        },
+        {
+          "change_point": 550,
+          "delay": 311.0
+        },
+        {
+          "change_point": 600,
+          "delay": 261.0
+        },
+        {
+          "change_point": 650,
+          "delay": 211.0
+        },
+        {
+          "change_point": 700,
+          "delay": 161.0
+        },
+        {
+          "change_point": 750,
+          "delay": 111.0
+        },
+        {
+          "change_point": 800,
+          "delay": 61.0
+        },
+        {
+          "change_point": 850,
+          "delay": 11.0
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0
+        },
+        {
+          "change_point": 950,
+          "delay": 102.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 52.0
+        }
+      ]
+    },
+    "md3_rs": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": 190.0
+        },
+        {
+          "change_point": 500,
+          "delay": 140.0
+        },
+        {
+          "change_point": 550,
+          "delay": 90.0
+        },
+        {
+          "change_point": 600,
+          "delay": 40.0
+        },
+        {
+          "change_point": 650,
+          "delay": 403.0
+        },
+        {
+          "change_point": 700,
+          "delay": 353.0
+        },
+        {
+          "change_point": 750,
+          "delay": 303.0
+        },
+        {
+          "change_point": 800,
+          "delay": 253.0
+        },
+        {
+          "change_point": 850,
+          "delay": 203.0
+        },
+        {
+          "change_point": 900,
+          "delay": 153.0
+        },
+        {
+          "change_point": 950,
+          "delay": 103.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 53.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 190.0
+        },
+        {
+          "change_point": 500,
+          "delay": 140.0
+        },
+        {
+          "change_point": 550,
+          "delay": 90.0
+        },
+        {
+          "change_point": 600,
+          "delay": 40.0
+        },
+        {
+          "change_point": 650,
+          "delay": 401.0
+        },
+        {
+          "change_point": 700,
+          "delay": 351.0
+        },
+        {
+          "change_point": 750,
+          "delay": 301.0
+        },
+        {
+          "change_point": 800,
+          "delay": 252.0
+        },
+        {
+          "change_point": 850,
+          "delay": 202.0
+        },
+        {
+          "change_point": 900,
+          "delay": 152.0
+        },
+        {
+          "change_point": 950,
+          "delay": 102.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 53.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 190.0
+        },
+        {
+          "change_point": 500,
+          "delay": 140.0
+        },
+        {
+          "change_point": 550,
+          "delay": 90.0
+        },
+        {
+          "change_point": 600,
+          "delay": 40.0
+        },
+        {
+          "change_point": 650,
+          "delay": 399.0
+        },
+        {
+          "change_point": 700,
+          "delay": 349.0
+        },
+        {
+          "change_point": 750,
+          "delay": 299.0
+        },
+        {
+          "change_point": 800,
+          "delay": 249.0
+        },
+        {
+          "change_point": 850,
+          "delay": 199.0
+        },
+        {
+          "change_point": 900,
+          "delay": 150.0
+        },
+        {
+          "change_point": 950,
+          "delay": 100.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 51.0
+        }
+      ]
+    },
+    "adwin_confidence": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": 157.0
+        },
+        {
+          "change_point": 500,
+          "delay": 348.0
+        },
+        {
+          "change_point": 550,
+          "delay": 298.0
+        },
+        {
+          "change_point": 600,
+          "delay": 9.0
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": 52.0
+        },
+        {
+          "change_point": 850,
+          "delay": 2.0
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0
+        },
+        {
+          "change_point": 950,
+          "delay": Infinity
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 157.0
+        },
+        {
+          "change_point": 500,
+          "delay": 109.0
+        },
+        {
+          "change_point": 550,
+          "delay": 59.0
+        },
+        {
+          "change_point": 600,
+          "delay": 9.0
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": 52.0
+        },
+        {
+          "change_point": 850,
+          "delay": 1.0
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0
+        },
+        {
+          "change_point": 950,
+          "delay": Infinity
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 156.0
+        },
+        {
+          "change_point": 500,
+          "delay": 78.0
+        },
+        {
+          "change_point": 550,
+          "delay": 28.0
+        },
+        {
+          "change_point": 600,
+          "delay": 7.0
+        },
+        {
+          "change_point": 650,
+          "delay": 8.0
+        },
+        {
+          "change_point": 700,
+          "delay": 145.0
+        },
+        {
+          "change_point": 750,
+          "delay": 95.0
+        },
+        {
+          "change_point": 800,
+          "delay": 51.0
+        },
+        {
+          "change_point": 850,
+          "delay": 1.0
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0
+        },
+        {
+          "change_point": 950,
+          "delay": 32.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0
+        }
+      ]
+    },
+    "ks_confidence": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": Infinity
+        },
+        {
+          "change_point": 500,
+          "delay": Infinity
+        },
+        {
+          "change_point": 550,
+          "delay": Infinity
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity
+        },
+        {
+          "change_point": 850,
+          "delay": Infinity
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity
+        },
+        {
+          "change_point": 950,
+          "delay": Infinity
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": Infinity
+        },
+        {
+          "change_point": 500,
+          "delay": Infinity
+        },
+        {
+          "change_point": 550,
+          "delay": Infinity
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity
+        },
+        {
+          "change_point": 850,
+          "delay": Infinity
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity
+        },
+        {
+          "change_point": 950,
+          "delay": Infinity
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": Infinity
+        },
+        {
+          "change_point": 500,
+          "delay": Infinity
+        },
+        {
+          "change_point": 550,
+          "delay": Infinity
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity
+        },
+        {
+          "change_point": 650,
+          "delay": Infinity
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity
+        },
+        {
+          "change_point": 750,
+          "delay": Infinity
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity
+        },
+        {
+          "change_point": 850,
+          "delay": Infinity
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity
+        },
+        {
+          "change_point": 950,
+          "delay": Infinity
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity
+        }
+      ]
+    }
+  },
+  "summary": {
+    "ilr_mewma": {
+      "1.0": {
+        "n_runs": 12,
+        "n_detected": 4,
+        "median": 77.0
+      },
+      "5.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 145.5
+      },
+      "20.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 44.5
+      }
+    },
+    "proportion_mewma": {
+      "1.0": {
+        "n_runs": 12,
+        "n_detected": 2,
+        "median": 27.0
+      },
+      "5.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 185.0
+      },
+      "20.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 79.5
+      }
+    },
+    "md3_conf": {
+      "1.0": {
+        "n_runs": 12,
+        "n_detected": 3,
+        "median": 52.0
+      },
+      "5.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 136.0
+      },
+      "20.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 136.0
+      }
+    },
+    "md3_rs": {
+      "1.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 171.5
+      },
+      "5.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 171.0
+      },
+      "20.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 170.0
+      }
+    },
+    "adwin_confidence": {
+      "1.0": {
+        "n_runs": 12,
+        "n_detected": 7,
+        "median": 52.0
+      },
+      "5.0": {
+        "n_runs": 12,
+        "n_detected": 7,
+        "median": 52.0
+      },
+      "20.0": {
+        "n_runs": 12,
+        "n_detected": 12,
+        "median": 30.0
+      }
+    },
+    "ks_confidence": {
+      "1.0": {
+        "n_runs": 12,
+        "n_detected": 0,
+        "median": null
+      },
+      "5.0": {
+        "n_runs": 12,
+        "n_detected": 0,
+        "median": null
+      },
+      "20.0": {
+        "n_runs": 12,
+        "n_detected": 0,
+        "median": null
+      }
+    }
+  }
+}

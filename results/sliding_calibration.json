@@ -1,0 +1,209 @@
+{
+  "nominal_per_1000": 5.0,
+  "rows": [
+    {
+      "window": 160,
+      "lag": 1,
+      "alarms": 143,
+      "exposure": 650,
+      "rate": 220.0,
+      "ci": [
+        188.71661868640945,
+        253.850016389374
+      ],
+      "covers": false,
+      "mean_sigma_Z": 1.7697651134843864,
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "units_per_dim": 20
+    },
+    {
+      "window": 160,
+      "lag": 4,
+      "alarms": 108,
+      "exposure": 650,
+      "rate": 166.15384615384616,
+      "ci": [
+        138.33894220062115,
+        197.03934981441213
+      ],
+      "covers": false,
+      "mean_sigma_Z": 2.1626349746551363,
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "units_per_dim": 20
+    },
+    {
+      "window": 320,
+      "lag": 1,
+      "alarms": 110,
+      "exposure": 475,
+      "rate": 231.57894736842104,
+      "ci": [
+        194.36207256307523,
+        272.1750887869814
+      ],
+      "covers": false,
+      "mean_sigma_Z": 1.7593789588441928,
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "units_per_dim": 40
+    },
+    {
+      "window": 320,
+      "lag": 4,
+      "alarms": 71,
+      "exposure": 475,
+      "rate": 149.47368421052633,
+      "ci": [
+        118.62244177390727,
+        184.76540097714255
+      ],
+      "covers": false,
+      "mean_sigma_Z": 2.130218270717781,
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "units_per_dim": 40
+    },
+    {
+      "window": 640,
+      "lag": 1,
+      "alarms": 44,
+      "exposure": 150,
+      "rate": 293.3333333333333,
+      "ci": [
+        221.90631602233873,
+        373.12420369526626
+      ],
+      "covers": false,
+      "mean_sigma_Z": 1.7502872748849294,
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "units_per_dim": 80
+    },
+    {
+      "window": 640,
+      "lag": 4,
+      "alarms": 31,
+      "exposure": 150,
+      "rate": 206.66666666666666,
+      "ci": [
+        144.94881633006733,
+        280.3342891271908
+      ],
+      "covers": false,
+      "mean_sigma_Z": 2.118718348843706,
+      "dataset": "wm811k",
+      "unit": 24,
+      "dim": 8,
+      "units_per_dim": 80
+    },
+    {
+      "window": 180,
+      "lag": 1,
+      "alarms": 0,
+      "exposure": 225,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        16.261352946163154
+      ],
+      "covers": true,
+      "mean_sigma_Z": 2.8091019788932616,
+      "dataset": "digits",
+      "unit": 3,
+      "dim": 9,
+      "units_per_dim": 20
+    },
+    {
+      "window": 180,
+      "lag": 4,
+      "alarms": 0,
+      "exposure": 225,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        16.261352946163154
+      ],
+      "covers": true,
+      "mean_sigma_Z": 2.7729141844090455,
+      "dataset": "digits",
+      "unit": 3,
+      "dim": 9,
+      "units_per_dim": 20
+    },
+    {
+      "window": 120,
+      "lag": 1,
+      "alarms": 0,
+      "exposure": 275,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        13.32453891088518
+      ],
+      "covers": true,
+      "mean_sigma_Z": 4.584215434216765,
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "units_per_dim": 20
+    },
+    {
+      "window": 120,
+      "lag": 4,
+      "alarms": 0,
+      "exposure": 275,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        13.32453891088518
+      ],
+      "covers": true,
+      "mean_sigma_Z": 4.612018029116523,
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "units_per_dim": 20
+    },
+    {
+      "window": 240,
+      "lag": 1,
+      "alarms": 0,
+      "exposure": 150,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        24.29259716610854
+      ],
+      "covers": true,
+      "mean_sigma_Z": 4.5842548059669515,
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "units_per_dim": 40
+    },
+    {
+      "window": 240,
+      "lag": 4,
+      "alarms": 0,
+      "exposure": 150,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        24.29259716610854
+      ],
+      "covers": true,
+      "mean_sigma_Z": 4.617140598076518,
+      "dataset": "image_segments",
+      "unit": 4,
+      "dim": 6,
+      "units_per_dim": 40
+    }
+  ]
+}

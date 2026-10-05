@@ -1,0 +1,12 @@
+{
+  "nominal_per_1000": 5.0,
+  "n_units": 1200,
+  "exposure": 700,
+  "provenance": "Transcribed from the printed output of second_order_centring.py, run on the full pipeline before the working cache was lost. Re-run the script where data/ and cache/ are present to regenerate this file from the computation rather than from its transcript, and confirm the values before submission.",
+  "regeneration_required": true,
+  "rows": [
+    {"centring": "single Phase I mean", "rate": 12.9, "rho": 0.532, "p": 0.0000, "rho_small": 0.131, "p_small": 0.0634, "n_small": 202},
+    {"centring": "first order", "rate": 0.0, "rho": -0.242, "p": 0.0000, "rho_small": -0.931, "p_small": 0.0000, "n_small": 202},
+    {"centring": "first + second order", "rate": 2.9, "rho": 0.038, "p": 0.3107, "rho_small": -0.712, "p_small": 0.0000, "n_small": 202}
+  ]
+}

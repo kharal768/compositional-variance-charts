@@ -1,0 +1,70 @@
+{
+  "nominal_per_1000": 5.0,
+  "T": 1600,
+  "exposure": 940,
+  "rows": [
+    {
+      "design": "fixed, 25 items",
+      "plain_rate": 15.957446808510639,
+      "plain_ci": [
+        8.9580527518149,
+        26.18298423616795
+      ],
+      "plain_covers": false,
+      "vc_rate": 0.0,
+      "vc_ci": [
+        0.0,
+        3.9166496860809814
+      ],
+      "vc_covers": false,
+      "plain_f_rate": 6.382978723404255,
+      "plain_f_ci": [
+        2.3459363069583565,
+        13.840943575707383
+      ],
+      "plain_f_covers": true
+    },
+    {
+      "design": "mildly varied, 18-30",
+      "plain_rate": 6.382978723404255,
+      "plain_ci": [
+        2.3459363069583565,
+        13.840943575707383
+      ],
+      "plain_covers": true,
+      "vc_rate": 0.0,
+      "vc_ci": [
+        0.0,
+        3.9166496860809814
+      ],
+      "vc_covers": false,
+      "plain_f_rate": 1.0638297872340425,
+      "plain_f_ci": [
+        0.026933475568593587,
+        5.912886758118204
+      ],
+      "plain_f_covers": true
+    },
+    {
+      "design": "widely varied, 4-40",
+      "plain_rate": 10.638297872340425,
+      "plain_ci": [
+        5.112935691206696,
+        19.476939882926843
+      ],
+      "plain_covers": false,
+      "vc_rate": 3.1914893617021276,
+      "vc_ci": [
+        0.658646035704242,
+        9.298312450838699
+      ],
+      "vc_covers": true,
+      "plain_f_rate": 8.51063829787234,
+      "plain_f_ci": [
+        3.6812443645437245,
+        16.700159305289578
+      ],
+      "plain_f_covers": true
+    }
+  ]
+}

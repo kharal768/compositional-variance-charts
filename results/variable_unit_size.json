@@ -1,0 +1,36 @@
+{
+  "nominal_per_1000": 5.0,
+  "n_units": 1200,
+  "size_median": 21.0,
+  "size_min": 1.0,
+  "size_max": 25.0,
+  "centre_shift": 14.345223919067239,
+  "rows": [
+    {
+      "centring": "single Phase I mean",
+      "alarms": 9,
+      "exposure": 700,
+      "rate": 12.857142857142858,
+      "ci": [
+        5.895502731295595,
+        24.26604162838344
+      ],
+      "covers": false,
+      "spearman_rho": 0.5320486884204477,
+      "spearman_p": 7.263610897830963e-54
+    },
+    {
+      "centring": "per-unit mean correction",
+      "alarms": 0,
+      "exposure": 700,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        5.255966608486495
+      ],
+      "covers": true,
+      "spearman_rho": -0.24221238148935775,
+      "spearman_p": 4.5102866507963974e-11
+    }
+  ]
+}

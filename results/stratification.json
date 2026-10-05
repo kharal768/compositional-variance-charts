@@ -1,0 +1,31 @@
+{
+  "target_far_per_1000": 5.0,
+  "heterogeneity": {
+    "n_distinct_die_sizes": 356,
+    "n_distinct_map_shapes": 295,
+    "top_die_sizes": {
+      "710": 277,
+      "1513": 249,
+      "515": 215,
+      "712": 155,
+      "733": 114,
+      "846": 92,
+      "3532": 82,
+      "939": 81,
+      "2393": 79,
+      "2367": 78
+    },
+    "share_in_largest_family": 0.09685314685314686
+  },
+  "runs": [
+    {
+      "label": "raw sequence (all products)",
+      "n_lots": 2860,
+      "phase_one": 300,
+      "limit": 95.70970332690125,
+      "prewhitened": false,
+      "lag1_dependence": 0.24783230947054924,
+      "far_per_1000": 9.84251968503937
+    }
+  ]
+}

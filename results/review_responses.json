@@ -1,0 +1,162 @@
+{
+  "sampling_covariance": [
+    {
+      "n": 25,
+      "min_p": 0.05,
+      "draws": 200000,
+      "max_rel_error": 0.4102778006186109,
+      "trace_theory": 1.3973333333333333,
+      "trace_empirical": 1.368814565752649
+    },
+    {
+      "n": 200,
+      "min_p": 0.05,
+      "draws": 200000,
+      "max_rel_error": 0.18639265465904442,
+      "trace_theory": 0.17466666666666666,
+      "trace_empirical": 0.19543515278750717
+    },
+    {
+      "n": 50,
+      "min_p": 0.05,
+      "draws": 200000,
+      "max_rel_error": 0.4207201039549148,
+      "trace_theory": 0.9314285714285714,
+      "trace_empirical": 1.2450095363904365
+    },
+    {
+      "n": 100,
+      "min_p": 0.04,
+      "draws": 200000,
+      "max_rel_error": 0.4219790814298193,
+      "trace_theory": 0.42,
+      "trace_empirical": 0.5590354913149191
+    }
+  ],
+  "lag_rule": {
+    "chosen": 4,
+    "trace": [
+      [
+        1,
+        1.0228635343193107
+      ],
+      [
+        2,
+        1.248755987003138
+      ],
+      [
+        4,
+        1.2871077123196464
+      ]
+    ],
+    "sweep": [
+      {
+        "lag": 1,
+        "rate": 34.261241970021416,
+        "ci": [
+          19.70765479709832,
+          55.042870631165236
+        ],
+        "covers": false,
+        "selected": false
+      },
+      {
+        "lag": 2,
+        "rate": 6.423982869379015,
+        "ci": [
+          1.3267440303162628,
+          18.657992372746158
+        ],
+        "covers": true,
+        "selected": false
+      },
+      {
+        "lag": 3,
+        "rate": 6.423982869379015,
+        "ci": [
+          1.3267440303162628,
+          18.657992372746158
+        ],
+        "covers": true,
+        "selected": false
+      },
+      {
+        "lag": 4,
+        "rate": 6.423982869379015,
+        "ci": [
+          1.3267440303162628,
+          18.657992372746158
+        ],
+        "covers": true,
+        "selected": true
+      },
+      {
+        "lag": 6,
+        "rate": 6.423982869379015,
+        "ci": [
+          1.3267440303162628,
+          18.657992372746158
+        ],
+        "covers": true,
+        "selected": false
+      },
+      {
+        "lag": 8,
+        "rate": 14.989293361884368,
+        "ci": [
+          6.047155687096375,
+          30.638694947095257
+        ],
+        "covers": false,
+        "selected": false
+      },
+      {
+        "lag": 12,
+        "rate": 6.423982869379015,
+        "ci": [
+          1.3267440303162628,
+          18.657992372746158
+        ],
+        "covers": true,
+        "selected": false
+      },
+      {
+        "lag": 16,
+        "rate": 6.423982869379015,
+        "ci": [
+          1.3267440303162628,
+          18.657992372746158
+        ],
+        "covers": true,
+        "selected": false
+      }
+    ]
+  },
+  "runtime": [
+    {
+      "operation": "variance components, Phase I fit",
+      "seconds": 1.2179727765000052,
+      "microseconds_per_unit": 3759.175236111127
+    },
+    {
+      "operation": "variance components, score stream",
+      "seconds": 0.0013459644000022308,
+      "microseconds_per_unit": 2.7637872689984206
+    },
+    {
+      "operation": "dispersion matrix, score stream",
+      "seconds": 0.017313959000000524,
+      "microseconds_per_unit": 35.552277207393274
+    },
+    {
+      "operation": "KS on confidence, score stream",
+      "seconds": 0.1031782734999922,
+      "microseconds_per_unit": 211.86503798766364
+    },
+    {
+      "operation": "MD3 margin density, score stream",
+      "seconds": 0.007735437599995976,
+      "microseconds_per_unit": 15.883855441470176
+    }
+  ]
+}

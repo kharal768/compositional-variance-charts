@@ -1,0 +1,500 @@
+{
+  "mode": "defect_remix",
+  "confined": true,
+  "change_points": [
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000
+  ],
+  "runs": {
+    "ilr_mewma": {
+      "1.0": [
+        {
+          "change_point": 500,
+          "delay": 109.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 1.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity,
+          "fa_per_1000": 3.4482758620689653
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0,
+          "fa_per_1000": 2.9411764705882355
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 500,
+          "delay": 101.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 1.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": 11.0,
+          "fa_per_1000": 13.793103448275861
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0,
+          "fa_per_1000": 2.9411764705882355
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 500,
+          "delay": 101.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 1.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": 138.0,
+          "fa_per_1000": 10.526315789473685
+        },
+        {
+          "change_point": 800,
+          "delay": 39.0,
+          "fa_per_1000": 8.333333333333334
+        },
+        {
+          "change_point": 900,
+          "delay": 10.0,
+          "fa_per_1000": 22.413793103448278
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0,
+          "fa_per_1000": 35.294117647058826
+        }
+      ]
+    },
+    "proportion_mewma": {
+      "1.0": [
+        {
+          "change_point": 500,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": 302.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": 102.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 500,
+          "delay": 417.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 402.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": 302.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": 202.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": 102.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 500,
+          "delay": 101.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 1.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": 217.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": 117.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": 17.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0,
+          "fa_per_1000": 2.9411764705882355
+        }
+      ]
+    },
+    "adwin_confidence": {
+      "1.0": [
+        {
+          "change_point": 500,
+          "delay": 110.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 10.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": 145.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity,
+          "fa_per_1000": 5.172413793103448
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 13.235294117647058
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 500,
+          "delay": 76.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": 10.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": 145.0,
+          "fa_per_1000": 5.2631578947368425
+        },
+        {
+          "change_point": 800,
+          "delay": 46.0,
+          "fa_per_1000": 4.166666666666667
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0,
+          "fa_per_1000": 13.793103448275861
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 13.235294117647058
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 500,
+          "delay": 76.0,
+          "fa_per_1000": 5.555555555555555
+        },
+        {
+          "change_point": 600,
+          "delay": 8.0,
+          "fa_per_1000": 7.142857142857143
+        },
+        {
+          "change_point": 700,
+          "delay": 145.0,
+          "fa_per_1000": 18.42105263157895
+        },
+        {
+          "change_point": 800,
+          "delay": 45.0,
+          "fa_per_1000": 10.416666666666666
+        },
+        {
+          "change_point": 900,
+          "delay": 0.0,
+          "fa_per_1000": 13.793103448275861
+        },
+        {
+          "change_point": 1000,
+          "delay": 2.0,
+          "fa_per_1000": 22.058823529411764
+        }
+      ]
+    },
+    "ks_confidence": {
+      "1.0": [
+        {
+          "change_point": 500,
+          "delay": 605.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 500,
+          "delay": 597.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 500,
+          "delay": 597.0,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 600,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 700,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 800,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 900,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        },
+        {
+          "change_point": 1000,
+          "delay": Infinity,
+          "fa_per_1000": 0.0
+        }
+      ]
+    }
+  },
+  "summary": {
+    "ilr_mewma": {
+      "1.0": {
+        "median": 2.0,
+        "min": 1.0,
+        "max": 109.0,
+        "n_never": 3,
+        "n_runs": 6
+      },
+      "5.0": {
+        "median": 6.5,
+        "min": 1.0,
+        "max": 101.0,
+        "n_never": 2,
+        "n_runs": 6
+      },
+      "20.0": {
+        "median": 24.5,
+        "min": 1.0,
+        "max": 138.0,
+        "n_never": 0,
+        "n_runs": 6
+      }
+    },
+    "proportion_mewma": {
+      "1.0": {
+        "median": 202.0,
+        "min": 102.0,
+        "max": 302.0,
+        "n_never": 4,
+        "n_runs": 6
+      },
+      "5.0": {
+        "median": 302.0,
+        "min": 102.0,
+        "max": 417.0,
+        "n_never": 1,
+        "n_runs": 6
+      },
+      "20.0": {
+        "median": 59.0,
+        "min": 1.0,
+        "max": 217.0,
+        "n_never": 0,
+        "n_runs": 6
+      }
+    },
+    "adwin_confidence": {
+      "1.0": {
+        "median": 110.0,
+        "min": 10.0,
+        "max": 145.0,
+        "n_never": 3,
+        "n_runs": 6
+      },
+      "5.0": {
+        "median": 46.0,
+        "min": 0.0,
+        "max": 145.0,
+        "n_never": 1,
+        "n_runs": 6
+      },
+      "20.0": {
+        "median": 26.5,
+        "min": 0.0,
+        "max": 145.0,
+        "n_never": 0,
+        "n_runs": 6
+      }
+    },
+    "ks_confidence": {
+      "1.0": {
+        "median": 605.0,
+        "min": 605.0,
+        "max": 605.0,
+        "n_never": 5,
+        "n_runs": 6
+      },
+      "5.0": {
+        "median": 597.0,
+        "min": 597.0,
+        "max": 597.0,
+        "n_never": 5,
+        "n_runs": 6
+      },
+      "20.0": {
+        "median": 597.0,
+        "min": 597.0,
+        "max": 597.0,
+        "n_never": 5,
+        "n_runs": 6
+      }
+    }
+  }
+}

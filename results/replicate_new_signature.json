@@ -1,0 +1,195 @@
+{
+  "mode": "new_signature",
+  "confined": false,
+  "change_points": [
+    450
+  ],
+  "runs": {
+    "ilr_mewma": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": 10.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 6.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 6.0,
+          "fa_per_1000": 0.0
+        }
+      ]
+    },
+    "proportion_mewma": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": 3.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 3.0,
+          "fa_per_1000": 7.6923076923076925
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 3.0,
+          "fa_per_1000": 23.076923076923077
+        }
+      ]
+    },
+    "adwin_confidence": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": 4.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 4.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 4.0,
+          "fa_per_1000": 7.6923076923076925
+        }
+      ]
+    },
+    "ks_confidence": {
+      "1.0": [
+        {
+          "change_point": 450,
+          "delay": 186.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "5.0": [
+        {
+          "change_point": 450,
+          "delay": 184.0,
+          "fa_per_1000": 0.0
+        }
+      ],
+      "20.0": [
+        {
+          "change_point": 450,
+          "delay": 184.0,
+          "fa_per_1000": 0.0
+        }
+      ]
+    }
+  },
+  "summary": {
+    "ilr_mewma": {
+      "1.0": {
+        "median": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "5.0": {
+        "median": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "20.0": {
+        "median": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_never": 0,
+        "n_runs": 1
+      }
+    },
+    "proportion_mewma": {
+      "1.0": {
+        "median": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "5.0": {
+        "median": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "20.0": {
+        "median": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_never": 0,
+        "n_runs": 1
+      }
+    },
+    "adwin_confidence": {
+      "1.0": {
+        "median": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "5.0": {
+        "median": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "20.0": {
+        "median": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_never": 0,
+        "n_runs": 1
+      }
+    },
+    "ks_confidence": {
+      "1.0": {
+        "median": 186.0,
+        "min": 186.0,
+        "max": 186.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "5.0": {
+        "median": 184.0,
+        "min": 184.0,
+        "max": 184.0,
+        "n_never": 0,
+        "n_runs": 1
+      },
+      "20.0": {
+        "median": 184.0,
+        "min": 184.0,
+        "max": 184.0,
+        "n_never": 0,
+        "n_runs": 1
+      }
+    }
+  }
+}

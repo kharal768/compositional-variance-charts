@@ -1,0 +1,198 @@
+{
+  "iterations": 400,
+  "T": 900,
+  "rows": [
+    {
+      "dim": 4,
+      "shape": "diagonal, mild",
+      "n_unit": 50,
+      "trace_ratio": 0.08088235294117647,
+      "total_rel_error": 0.4842950536456715,
+      "component_rel_error": 1.0131781655491465
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, mild",
+      "n_unit": 100,
+      "trace_ratio": 0.16176470588235295,
+      "total_rel_error": 0.020818644347957188,
+      "component_rel_error": 0.43073152001802817
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, mild",
+      "n_unit": 200,
+      "trace_ratio": 0.3235294117647059,
+      "total_rel_error": 0.021348258763188063,
+      "component_rel_error": 0.19117049530534308
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, mild",
+      "n_unit": 400,
+      "trace_ratio": 0.6470588235294118,
+      "total_rel_error": 0.0013029330251967761,
+      "component_rel_error": 0.08136348081788437
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, wide spread",
+      "n_unit": 50,
+      "trace_ratio": 0.04306935850451081,
+      "total_rel_error": 1.2024054572322014,
+      "component_rel_error": 29.8491347025235
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, wide spread",
+      "n_unit": 100,
+      "trace_ratio": 0.08613871700902162,
+      "total_rel_error": 0.3119091568599957,
+      "component_rel_error": 14.958457368428311
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, wide spread",
+      "n_unit": 200,
+      "trace_ratio": 0.17227743401804324,
+      "total_rel_error": 0.2693009467684772,
+      "component_rel_error": 7.643311843134024
+    },
+    {
+      "dim": 4,
+      "shape": "diagonal, wide spread",
+      "n_unit": 400,
+      "trace_ratio": 0.3445548680360865,
+      "total_rel_error": 0.04045069219367875,
+      "component_rel_error": 4.680270932611781
+    },
+    {
+      "dim": 4,
+      "shape": "non-diagonal",
+      "n_unit": 50,
+      "trace_ratio": 0.08823529411764705,
+      "total_rel_error": 0.18366984236408865,
+      "component_rel_error": 0.8848785883868732
+    },
+    {
+      "dim": 4,
+      "shape": "non-diagonal",
+      "n_unit": 100,
+      "trace_ratio": 0.1764705882352941,
+      "total_rel_error": 0.08134695043467606,
+      "component_rel_error": 0.2376814109306722
+    },
+    {
+      "dim": 4,
+      "shape": "non-diagonal",
+      "n_unit": 200,
+      "trace_ratio": 0.3529411764705882,
+      "total_rel_error": 0.06678142970008251,
+      "component_rel_error": 0.11567802528918855
+    },
+    {
+      "dim": 4,
+      "shape": "non-diagonal",
+      "n_unit": 400,
+      "trace_ratio": 0.7058823529411764,
+      "total_rel_error": 0.0771047041092268,
+      "component_rel_error": 0.06383931247794711
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, mild",
+      "n_unit": 50,
+      "trace_ratio": 0.03807692307692307,
+      "total_rel_error": 1.1332161549496582,
+      "component_rel_error": 2.448084191168713
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, mild",
+      "n_unit": 100,
+      "trace_ratio": 0.07615384615384614,
+      "total_rel_error": 0.3853144974622426,
+      "component_rel_error": 1.0434041409567745
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, mild",
+      "n_unit": 200,
+      "trace_ratio": 0.15230769230769228,
+      "total_rel_error": 0.2999528772732267,
+      "component_rel_error": 0.8454916623165948
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, mild",
+      "n_unit": 400,
+      "trace_ratio": 0.30461538461538457,
+      "total_rel_error": 0.02309195009557105,
+      "component_rel_error": 0.16501626021788798
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, wide spread",
+      "n_unit": 50,
+      "trace_ratio": 0.0154152270644857,
+      "total_rel_error": 3.4661078643371104,
+      "component_rel_error": 69.99461229701596
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, wide spread",
+      "n_unit": 100,
+      "trace_ratio": 0.0308304541289714,
+      "total_rel_error": 1.6965184844707517,
+      "component_rel_error": 37.005024153793165
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, wide spread",
+      "n_unit": 200,
+      "trace_ratio": 0.0616609082579428,
+      "total_rel_error": 1.0880571591868422,
+      "component_rel_error": 24.053447478871888
+    },
+    {
+      "dim": 8,
+      "shape": "diagonal, wide spread",
+      "n_unit": 400,
+      "trace_ratio": 0.1233218165158856,
+      "total_rel_error": 0.22497287770097332,
+      "component_rel_error": 6.123840301345088
+    },
+    {
+      "dim": 8,
+      "shape": "non-diagonal",
+      "n_unit": 50,
+      "trace_ratio": 0.04153846153846152,
+      "total_rel_error": 1.0584138410591932,
+      "component_rel_error": 1.1491873028343156
+    },
+    {
+      "dim": 8,
+      "shape": "non-diagonal",
+      "n_unit": 100,
+      "trace_ratio": 0.08307692307692306,
+      "total_rel_error": 0.26310854726912547,
+      "component_rel_error": 0.37462086900212993
+    },
+    {
+      "dim": 8,
+      "shape": "non-diagonal",
+      "n_unit": 200,
+      "trace_ratio": 0.16615384615384615,
+      "total_rel_error": 0.3079682421269526,
+      "component_rel_error": 0.3671559180056301
+    },
+    {
+      "dim": 8,
+      "shape": "non-diagonal",
+      "n_unit": 400,
+      "trace_ratio": 0.3323076923076923,
+      "total_rel_error": 0.058189920184250135,
+      "component_rel_error": 0.11464923976076805
+    }
+  ]
+}

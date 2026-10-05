@@ -1,0 +1,111 @@
+{
+  "nominal_per_1000": 5.0,
+  "streams": 300,
+  "phase_one": 240,
+  "rows": [
+    {
+      "design": "fixed, 24 items",
+      "exposure": 102000,
+      "alarms": 507,
+      "rate": 4.970588235294118,
+      "ci": [
+        4.548223913091063,
+        5.421466365516912
+      ],
+      "q10": 0.0,
+      "median": 2.941176470588235,
+      "q90": 11.76470588235294,
+      "share_above_2x": 0.12,
+      "share_silent": 0.18666666666666668
+    },
+    {
+      "design": "fixed, 48 items",
+      "exposure": 102000,
+      "alarms": 406,
+      "rate": 3.980392156862745,
+      "ci": [
+        3.6032453566299143,
+        4.386158714754527
+      ],
+      "q10": 0.0,
+      "median": 2.941176470588235,
+      "q90": 8.823529411764707,
+      "share_above_2x": 0.06333333333333334,
+      "share_silent": 0.2833333333333333
+    },
+    {
+      "design": "mildly varied, 18-30",
+      "exposure": 102000,
+      "alarms": 520,
+      "rate": 5.098039215686274,
+      "ci": [
+        4.670200273527558,
+        5.554379395786539
+      ],
+      "q10": 0.0,
+      "median": 5.88235294117647,
+      "q90": 11.76470588235294,
+      "share_above_2x": 0.10666666666666667,
+      "share_silent": 0.19666666666666666
+    },
+    {
+      "design": "widely varied, 4-40",
+      "exposure": 102000,
+      "alarms": 560,
+      "rate": 5.490196078431373,
+      "ci": [
+        5.045934489758155,
+        5.962921398982368
+      ],
+      "q10": 0.0,
+      "median": 5.88235294117647,
+      "q90": 11.76470588235294,
+      "share_above_2x": 0.14,
+      "share_silent": 0.22333333333333333
+    }
+  ],
+  "by_size": [
+    {
+      "design": "fixed, 24 items",
+      "size_class": "13-24",
+      "alarms": 507,
+      "units": 102000,
+      "rate": 4.970588235294118
+    },
+    {
+      "design": "mildly varied, 18-30",
+      "size_class": "13-24",
+      "alarms": 264,
+      "units": 54990,
+      "rate": 4.800872885979269
+    },
+    {
+      "design": "mildly varied, 18-30",
+      "size_class": "25-40",
+      "alarms": 256,
+      "units": 47010,
+      "rate": 5.445649861731546
+    },
+    {
+      "design": "widely varied, 4-40",
+      "size_class": "4-12",
+      "alarms": 83,
+      "units": 24837,
+      "rate": 3.3417884607641826
+    },
+    {
+      "design": "widely varied, 4-40",
+      "size_class": "13-24",
+      "alarms": 136,
+      "units": 33129,
+      "rate": 4.105164659361888
+    },
+    {
+      "design": "widely varied, 4-40",
+      "size_class": "25-40",
+      "alarms": 341,
+      "units": 44034,
+      "rate": 7.74401598764591
+    }
+  ]
+}
